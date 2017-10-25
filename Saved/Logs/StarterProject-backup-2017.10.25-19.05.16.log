@@ -1,0 +1,1588 @@
+﻿Log file open, 10/25/17 16:25:00
+LogInit:Display: Running engine for game: StarterProject
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(2126566157) SRandInit(2126566157).
+LogTaskGraph: Started task graph with 5 named threads and 6 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.171063
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3466753
+LogInit: Engine Version: 4.16.1-3466753+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): May 31 2017 02:03:30
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line: 
+LogInit: Base directory: C:/Unreal Engine 4/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.10.25-09.25.01:515][  0]LogInit: Selected Device Profile: [Windows]
+[2017.10.25-09.25.01:515][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.10.25-09.25.01:545][  0]LogInit: Computer: CSLAB-2601-27-2
+[2017.10.25-09.25.01:545][  0]LogInit: User: muthyafifah
+[2017.10.25-09.25.01:545][  0]LogInit: CPU Page size=4096, Cores=2
+[2017.10.25-09.25.01:545][  0]LogInit: High frequency timer resolution =3.604970 MHz
+[2017.10.25-09.25.01:545][  0]LogMemory: Memory total: Physical=11.9GB (12GB approx)
+[2017.10.25-09.25.01:545][  0]LogMemory: Platform Memory Stats for Windows
+[2017.10.25-09.25.01:545][  0]LogMemory: Process Physical Memory: 272.74 MB used, 272.74 MB peak
+[2017.10.25-09.25.01:545][  0]LogMemory: Process Virtual Memory: 260.52 MB used, 260.52 MB peak
+[2017.10.25-09.25.01:545][  0]LogMemory: Physical Memory: 3142.96 MB used,  9018.75 MB free, 12161.71 MB total
+[2017.10.25-09.25.01:545][  0]LogMemory: Virtual Memory: 618.74 MB used,  9018.75 MB free, 8388608.00 MB total
+[2017.10.25-09.25.01:715][  0]LogInit: Using OS detected language (en-US).
+[2017.10.25-09.25.01:715][  0]LogInit: Using OS detected locale (en-US).
+[2017.10.25-09.25.01:721][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.10.25-09.25.03:435][  0]LogD3D11RHI: D3D11 adapters:
+[2017.10.25-09.25.03:461][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 750 Ti' (Feature Level 11_0)
+[2017.10.25-09.25.03:461][  0]LogD3D11RHI:       1992/0/5824 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.10.25-09.25.03:475][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4400' (Feature Level 11_0)
+[2017.10.25-09.25.03:475][  0]LogD3D11RHI:       192/0/1632 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2017.10.25-09.25.03:475][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.10.25-09.25.03:482][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.10.25-09.25.03:483][  0]LogD3D11RHI:     GPU DeviceId: 0x1380 (for the marketing name, search the web for "GPU Device Id")
+[2017.10.25-09.25.03:483][  0]LogWindows: EnumDisplayDevices:
+[2017.10.25-09.25.03:483][  0]LogWindows:    0. 'NVIDIA GeForce GTX 750 Ti' (P:1 D:1)
+[2017.10.25-09.25.03:483][  0]LogWindows:    1. 'NVIDIA GeForce GTX 750 Ti' (P:0 D:0)
+[2017.10.25-09.25.03:483][  0]LogWindows:    2. 'NVIDIA GeForce GTX 750 Ti' (P:0 D:0)
+[2017.10.25-09.25.03:484][  0]LogWindows:    3. 'NVIDIA GeForce GTX 750 Ti' (P:0 D:0)
+[2017.10.25-09.25.03:484][  0]LogWindows:    4. 'Intel(R) HD Graphics 4400' (P:0 D:0)
+[2017.10.25-09.25.03:484][  0]LogWindows:    5. 'Intel(R) HD Graphics 4400' (P:0 D:0)
+[2017.10.25-09.25.03:485][  0]LogWindows:    6. 'Intel(R) HD Graphics 4400' (P:0 D:0)
+[2017.10.25-09.25.03:485][  0]LogWindows:    7. 'RDPDD Chained DD' (P:0 D:0)
+[2017.10.25-09.25.03:485][  0]LogWindows:    8. 'RDP Encoder Mirror Driver' (P:0 D:0)
+[2017.10.25-09.25.03:485][  0]LogWindows:    9. 'RDP Reflector Display Driver' (P:0 D:0)
+[2017.10.25-09.25.03:486][  0]LogWindows:    10. 'PCI GDIHOOK5' (P:0 D:0)
+[2017.10.25-09.25.03:486][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2017.10.25-09.25.03:486][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 750 Ti
+[2017.10.25-09.25.03:486][  0]LogD3D11RHI:   Driver Version: 376.53 (internal:21.21.13.7653, unified:376.53)
+[2017.10.25-09.25.03:486][  0]LogD3D11RHI:      Driver Date: 12-29-2016
+[2017.10.25-09.25.03:486][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.10.25-09.25.03:499][  0]LogD3D11RHI: Async texture creation enabled
+[2017.10.25-09.25.03:513][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.10.25-09.25.03:562][  0]LogShaderCompilers: Guid format shader working directory is -14 characters bigger than the processId version (../../../../../Users/muthy.afifah/Downloads/StarterProject 4.16 - 3/Intermediate/Shaders/WorkingDirectory/3980/).
+[2017.10.25-09.25.03:562][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/muthy.afifah/AppData/Local/Temp/UnrealShaderWorkingDir/3572D44941120A98E93C9185CB58B10C/'.
+[2017.10.25-09.25.03:562][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.10.25-09.25.06:624][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.10.25-09.25.06:757][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.10.25-09.25.06:888][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.10.25-09.25.07:024][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.10.25-09.25.07:160][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.10.25-09.25.07:302][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.10.25-09.25.07:413][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.10.25-09.25.07:528][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.10.25-09.25.07:620][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.10.25-09.25.07:727][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.10.25-09.25.07:836][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.10.25-09.25.07:943][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.10.25-09.25.08:055][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.10.25-09.25.08:172][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.10.25-09.25.08:269][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.10.25-09.25.08:454][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.10.25-09.25.08:454][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.10.25-09.25.08:523][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.10.25-09.25.08:670][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.10.25-09.25.08:724][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.10.25-09.25.08:816][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.10.25-09.25.08:906][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.10.25-09.25.08:991][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.10.25-09.25.09:072][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.10.25-09.25.09:072][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.10.25-09.25.09:787][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.10.25-09.25.09:951][  0]LogDerivedDataCache: Loaded boot cache 0.16s 90MB C:/Users/muthy.afifah/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.10.25-09.25.09:951][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/muthy.afifah/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.10.25-09.25.09:951][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Users/muthy.afifah/Downloads/StarterProject 4.16 - 3/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.10.25-09.25.09:951][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.10.25-09.25.09:951][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../Users/muthy.afifah/Downloads/StarterProject 4.16 - 3/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.10.25-09.25.09:951][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.10.25-09.25.09:988][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.10.25-09.25.10:000][  0]LogDerivedDataCache: Using Local data cache path C:/Users/muthy.afifah/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.10.25-09.25.10:020][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.10.25-09.25.10:021][  0]LogSlate: Using Freetype 2.6.0
+[2017.10.25-09.25.10:021][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.10.25-09.25.10:021][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.10.25-09.25.10:696][  0]LogInit: Selected Device Profile: [Windows]
+[2017.10.25-09.25.10:705][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.10.25-09.25.11:124][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.10.25-09.25.11:192][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.10.25-09.25.11:265][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.10.25-09.25.11:265][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.10.25-09.25.11:265][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.10.25-09.25.12:151][  0]LogNetVersion: StarterProject , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2564044933)
+[2017.10.25-09.25.12:237][  0]LogAssetRegistry: FAssetRegistry took 0.0281 seconds to start up
+[2017.10.25-09.25.12:344][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.076778 seconds
+[2017.10.25-09.25.12:353][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.10.25-09.25.12:353][  0]LogUObjectAllocator: 7260424 out of 0 bytes used by permanent object pool.
+[2017.10.25-09.25.12:353][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.10.25-09.25.12:447][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.10.25-09.25.16:860][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.10.25-09.25.16:983][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.10.25-09.25.18:435][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.10.25-09.25.19:695][  0]SourceControl: Info Source control is disabled
+[2017.10.25-09.25.19:798][  0]SourceControl: Info Source control is disabled
+[2017.10.25-09.25.19:942][  0]SourceControl: Info Source control is disabled
+[2017.10.25-09.25.20:059][  0]SourceControl: Info Source control is disabled
+[2017.10.25-09.25.21:665][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.10.25-09.25.23:269][  0]LogEngine: Initializing Engine...
+[2017.10.25-09.25.23:270][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.10.25-09.25.24:033][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.10.25-09.25.24:033][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.10.25-09.25.24:453][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.10.25-09.25.24:501][  0]LogInit: XAudio2 using 'ASUS VS197-8 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.25-09.25.24:588][  0]LogInit: FAudioDevice initialized.
+[2017.10.25-09.25.24:719][  0]LogDerivedDataCache: Saved boot cache 0.13s 90MB C:/Users/muthy.afifah/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.10.25-09.25.24:747][  0]LogInit: Texture streaming: Enabled
+[2017.10.25-09.25.25:023][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.10.25-09.25.25:720][  0]LogInit: Transaction tracking system initialized
+[2017.10.25-09.25.26:795][  0]BlueprintLog: New page: Editor Load
+[2017.10.25-09.25.29:968][  0]LocalizationService: Info Localization service is disabled
+[2017.10.25-09.25.32:375][  0]LogConsoleResponse:Display: 
+[2017.10.25-09.25.32:877][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.10.25-09.25.32:877][  0]LogCook:Display: Mobile HDR setting 1
+[2017.10.25-09.25.33:014][  0]LogFileCache: Scanning file cache for directory 'C:/Users/muthy.afifah/Downloads/StarterProject 4.16 - 3/Content/' took 0.01s
+[2017.10.25-09.25.35:560][  0]SourceControl: Info Source control is disabled
+[2017.10.25-09.25.35:561][  0]Cmd: MAP LOAD FILE="../../../../../Users/muthy.afifah/Downloads/StarterProject 4.16 - 3/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.10.25-09.25.35:562][  0]LightingResults: New page: Lighting Build
+[2017.10.25-09.25.35:674][  0]MapCheck: New page: Map Check
+[2017.10.25-09.25.35:674][  0]LightingResults: New page: Lighting Build
+[2017.10.25-09.25.36:747][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2017.10.25-09.25.36:771][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.10.25-09.25.36:829][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.10.25-09.25.36:956][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 127.555ms to complete.
+[2017.10.25-09.25.36:957][  0]LogFileHelpers: Loading map 'Minimal_Default' took 1.396
+[2017.10.25-09.25.37:231][  0]LogCollectionManager: Loaded 0 collections in 0.003099 seconds
+[2017.10.25-09.25.37:388][  0]LogFileCache: Scanning file cache for directory 'C:/Users/muthy.afifah/Downloads/StarterProject 4.16 - 3/Saved/Collections/' took 0.01s
+[2017.10.25-09.25.37:388][  0]LogFileCache: Scanning file cache for directory 'C:/Users/muthy.afifah/Downloads/StarterProject 4.16 - 3/Content/Developers/muthyafifah/Collections/' took 0.01s
+[2017.10.25-09.25.37:388][  0]LogFileCache: Scanning file cache for directory 'C:/Users/muthy.afifah/Downloads/StarterProject 4.16 - 3/Content/Collections/' took 0.01s
+[2017.10.25-09.25.37:388][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000004 seconds
+[2017.10.25-09.25.37:415][  0]LogContentBrowser: Native class hierarchy populated in 0.0268 seconds. Added 2329 classes and 491 folders.
+[2017.10.25-09.25.37:575][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0016 seconds. Added 0 classes and 0 folders.
+[2017.10.25-09.25.37:676][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0015 seconds. Added 0 classes and 0 folders.
+[2017.10.25-09.25.37:782][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0015 seconds. Added 1 classes and 2 folders.
+[2017.10.25-09.25.37:882][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.10.25-09.25.37:896][  0]LogSlate: Took 0.001827 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.10.25-09.25.37:903][  0]LogSlate: Took 0.000383 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.10.25-09.25.37:928][  0]LogSlate: Took 0.000427 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.10.25-09.25.38:208][  0]LogRenderer: Reallocating scene render targets to support 856x372 NumSamples 1 (Frame:1).
+[2017.10.25-09.25.38:627][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0017 seconds. Added 1 classes and 2 folders.
+[2017.10.25-09.25.38:627][  0]LogLoad: (Engine Initialization) Total time: 40.94 seconds
+[2017.10.25-09.25.38:627][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.20 seconds
+[2017.10.25-09.25.38:627][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.10.25-09.25.38:627][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.10.25-09.25.38:637][  0]LogOcInput: OculusInput pre-init called
+[2017.10.25-09.25.38:637][  0]LogHMD: Starting GearVRController plugin
+[2017.10.25-09.25.38:664][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.10.25-09.25.38:688][  0]LogSlate: Took 0.000406 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.25-09.25.38:870][  2]LogAssetRegistry: Asset discovery search completed in 26.6536 seconds
+[2017.10.25-09.25.38:875][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.10.25-09.25.38:875][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000070 seconds (updated 0 objects)
+[2017.10.25-09.26.10:228][864]LogSlate: Took 0.000442 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.25-09.26.11:200][864]LogAIModule: Creating AISystem for world Level2
+[2017.10.25-09.26.11:222][864]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tutorial3/Level2" FILE="../../../../../Users/muthy.afifah/Downloads/StarterProject 4.16 - 3/Content/Tutorial3/Level2.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.10.25-09.26.11:624][864]LogSavePackage: Save=327.35ms
+[2017.10.25-09.26.11:624][864]LogSavePackage: Moving '../../../../../Users/muthy.afifah/Downloads/StarterProject 4.16 - 3/Saved/Level287808A1D4447378932CF62B83C273049.tmp' to '../../../../../Users/muthy.afifah/Downloads/StarterProject 4.16 - 3/Content/Tutorial3/Level2.umap'
+[2017.10.25-09.26.11:634][864]LogSavePackage:Display: Finished SavePackage ../../../../../Users/muthy.afifah/Downloads/StarterProject 4.16 - 3/Content/Tutorial3/Level2.umap
+[2017.10.25-09.26.11:661][864]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tutorial3/Level2_BuiltData" FILE="../../../../../Users/muthy.afifah/Downloads/StarterProject 4.16 - 3/Content/Tutorial3/Level2_BuiltData.uasset" SILENT=true
+[2017.10.25-09.26.11:942][864]LogSavePackage: Save=275.31ms
+[2017.10.25-09.26.11:942][864]LogSavePackage: Moving '../../../../../Users/muthy.afifah/Downloads/StarterProject 4.16 - 3/Saved/Level2_BuiltData2AD0E56547A1FB357821709DF691B5C6.tmp' to '../../../../../Users/muthy.afifah/Downloads/StarterProject 4.16 - 3/Content/Tutorial3/Level2_BuiltData.uasset'
+[2017.10.25-09.26.11:944][864]LogSavePackage:Display: Finished SavePackage ../../../../../Users/muthy.afifah/Downloads/StarterProject 4.16 - 3/Content/Tutorial3/Level2_BuiltData.uasset
+[2017.10.25-09.26.11:955][864]LogFileHelpers: Saving map 'Level2' took 1.911
+[2017.10.25-09.26.11:957][864]Cmd: MAP LOAD FILE="../../../../../Users/muthy.afifah/Downloads/StarterProject 4.16 - 3/Content/Tutorial3/Level2.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.10.25-09.26.11:987][864]LightingResults: New page: Lighting Build
+[2017.10.25-09.26.11:990][864]LoadErrors: New page: Loading map: Level2.umap
+[2017.10.25-09.26.11:994][864]MapCheck: New page: Map Check
+[2017.10.25-09.26.11:995][864]LightingResults: New page: Lighting Build
+[2017.10.25-09.26.12:077][864]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.10.25-09.26.12:213][864]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.10.25-09.26.12:385][864]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 170.858ms to complete.
+[2017.10.25-09.26.12:385][864]LogFileHelpers: Loading map 'Level2' took 0.430
+[2017.10.25-09.26.47:386][610]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.10.25-09.27.10:126][573]LogActorFactory: Actor Factory created SM_Couch
+[2017.10.25-09.27.12:940][729]LogActorFactory: Actor Factory created SM_Couch
+[2017.10.25-09.27.46:751][948]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Couch)
+[2017.10.25-09.28.12:609][263]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Table)
+[2017.10.25-09.28.13:615][303]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.10.25-09.28.15:002][368]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.10.25-09.28.22:209][721]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Statue)
+[2017.10.25-09.28.54:606][345]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.10.25-09.29.20:841][629]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Couch)
+[2017.10.25-09.30.05:973][883]Cmd: TRANSACTION UNDO
+[2017.10.25-09.30.05:973][883]LogEditorTransaction: Undo Rotate Actors
+[2017.10.25-09.30.06:009][883]LogSlate: Took 0.000545 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.25-09.30.07:171][936]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.10.25-09.30.08:410][990]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Couch)
+[2017.10.25-09.30.17:835][460]Cmd: TRANSACTION UNDO
+[2017.10.25-09.30.17:835][460]LogEditorTransaction: Undo Rotate Actors
+[2017.10.25-09.30.25:948][852]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.10.25-09.30.27:043][899]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.10.25-09.30.29:353][ 14]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Couch)
+[2017.10.25-09.30.59:012][471]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Couch)
+[2017.10.25-09.31.49:100][ 95]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Couch)
+[2017.10.25-09.32.24:788][100]LogRenderer: Reallocating scene render targets to support 860x372 NumSamples 1 (Frame:13003).
+[2017.10.25-09.32.24:866][101]LogRenderer: Reallocating scene render targets to support 884x372 NumSamples 1 (Frame:13005).
+[2017.10.25-09.32.24:965][102]LogRenderer: Reallocating scene render targets to support 908x372 NumSamples 1 (Frame:13007).
+[2017.10.25-09.32.25:048][103]LogRenderer: Reallocating scene render targets to support 920x372 NumSamples 1 (Frame:13009).
+[2017.10.25-09.32.25:227][104]LogRenderer: Reallocating scene render targets to support 924x372 NumSamples 1 (Frame:13011).
+[2017.10.25-09.32.25:308][105]LogRenderer: Reallocating scene render targets to support 928x372 NumSamples 1 (Frame:13013).
+[2017.10.25-09.33.01:151][598]MapCheck: New page: Map Check
+[2017.10.25-09.33.01:215][598]LightingResults: New page: Lighting Build - Oct 25, 2017, 11:33:01 PM
+[2017.10.25-09.33.01:559][598]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.10.25-09.33.01:694][598]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.10.25-09.33.01:768][598]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.10.25-09.33.06:135][598]LogSwarmInterface:Error: [TryOpenConnection] Waiting for the agent to start up ...
+[2017.10.25-09.33.06:896][598]LogSwarmInterface:Error: System.Net.Sockets.SocketException (0x80004005): No connection could be made because the target machine actively refused it 127.0.0.1:8008
+
+Server stack trace: 
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket(EndPoint ipEndPoint)
+   at System.Runtime.Remoting.Channels.SocketCache.GetSocket(String machinePortAndSid, Boolean openNew)
+   at System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.SendRequestWithRetry(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream)
+   at System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.AsyncProcessRequest(IClientChannelSinkStack sinkStack, IMessage msg, ITransportHeaders headers, Stream stream)
+   at System.Runtime.Remoting.Channels.BinaryClientFormatterSink.AsyncProcessMessage(IMessage msg, IMessageSink replySink)
+
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   at NSwarm.IAgentInterfaceWrapper.MethodDelegate.EndInvoke(Hashtable& OutParameters, IAsyncResult result)
+   at NSwarm.FSwarmInterface.TryOpenConnection(FConnectionCallback CallbackFunc, IntPtr CallbackData, ELogFlags LoggingFlags)
+[2017.10.25-09.33.12:831][598]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.10.25-09.33.12:831][598]LogSwarmInterface: [TryOpenConnection] Local Process ID is 3980
+[2017.10.25-09.33.15:348][598]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2017.10.25-09.33.15:360][598]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.10.25-09.33.15:360][598]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.10.25-09.33.15:360][598]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.10.25-09.33.15:360][598]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.10.25-09.33.15:361][598]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.10.25-09.33.16:613][598]LogEditorBuildUtils: Build time 0:15
+[2017.10.25-09.33.16:635][598]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Metal_Brushed_Nickel, compiling. 
+[2017.10.25-09.33.16:711][598]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Metal_Brushed_Nickel, compiling. 
+[2017.10.25-09.33.16:794][599]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_TableRound, compiling. 
+[2017.10.25-09.33.16:825][599]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_TableRound, compiling. 
+[2017.10.25-09.33.16:899][600]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Chair, compiling. 
+[2017.10.25-09.33.16:924][600]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Chair, compiling. 
+[2017.10.25-09.33.16:999][601]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Metal_Copper, compiling. 
+[2017.10.25-09.33.17:021][601]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Metal_Copper, compiling. 
+[2017.10.25-09.33.17:065][602]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_StatueGlass, compiling. 
+[2017.10.25-09.33.17:089][602]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_StatueGlass, compiling. 
+[2017.10.25-09.33.17:150][603]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Metal_Burnished_Steel, compiling. 
+[2017.10.25-09.33.17:185][603]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Metal_Burnished_Steel, compiling. 
+[2017.10.25-09.33.17:259][604]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer MaterialInstanceDynamic_3, compiling. 
+[2017.10.25-09.33.17:293][604]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer MaterialInstanceDynamic_3, compiling. 
+[2017.10.25-09.33.17:362][605]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer WorldGridMaterial, compiling. Is special engine material.
+[2017.10.25-09.33.17:392][605]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer WorldGridMaterial, compiling. Is special engine material.
+[2017.10.25-09.33.40:276][658]Job is a success!
+[2017.10.25-09.33.41:551][659]LogTexture:Display: Building textures: SkyOcclusion1_1 (AutoDXT, 512X256)
+[2017.10.25-09.33.41:551][659]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 512X512)
+[2017.10.25-09.33.41:551][659]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1, 512X512)
+[2017.10.25-09.33.41:551][659]LogTexture:Display: Building textures: SkyOcclusion1_2 (AutoDXT, 64X32)
+[2017.10.25-09.33.41:551][659]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 64X64)
+[2017.10.25-09.33.41:551][659]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1, 64X64)
+[2017.10.25-09.33.41:814][659]LogTexture:Display: Building textures: ShadowMapTexture2D_2 (G8, 1024X128)
+[2017.10.25-09.33.41:815][659]LogTexture:Display: Building textures: ShadowMapTexture2D_3 (G8, 32X32)
+[2017.10.25-09.33.42:754][659]Lightmass on CSLAB-2601-27-2: 11.6 sec total, 5.62 sec importing, 137 ms setup, 438 ms photons, 4.31 sec processing, 0 ms extra exporting [8/8 mappings]. Threads: 17.2 sec total, 6.85 sec processing.
+[2017.10.25-09.33.42:836][659]LogStaticLightingSystem: Illumination: 41.2 sec (745 ms encoding lightmaps, 261 ms encoding shadowmaps)
+[2017.10.25-09.33.42:836][659]LogStaticLightingSystem: Lightmap texture memory:  0.7 MB (0.7 MB streaming, 0.0 MB non-streaming), 4 textures
+[2017.10.25-09.33.42:836][659]LogStaticLightingSystem: Shadowmap texture memory: 0.2 MB (0.2 MB streaming, 0.0 MB non-streaming), 2 textures
+[2017.10.25-09.33.43:387][659]DumpUnbuiltLightIteractions
+[2017.10.25-09.33.43:387][659]Lights with unbuilt interactions: 0
+[2017.10.25-09.33.43:387][659]
+[2017.10.25-09.33.43:387][659]Primitives with unbuilt interactions: 0
+[2017.10.25-09.33.43:407][660]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.10.25-09.33.43:407][660]MapCheck: New page: Level2 - Oct 25, 2017, 11:33:43 PM
+[2017.10.25-09.33.43:721][660]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 314.241ms to complete.
+[2017.10.25-09.33.51:896][942]LogEditorViewport: Clicking on Actor (LMB): SkyLight (SkyLight)
+[2017.10.25-09.33.54:958][113]Cmd: TRANSACTION UNDO
+[2017.10.25-09.33.54:958][113]LogEditorTransaction: Undo Clicking on Actors
+[2017.10.25-09.34.40:488][652]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.10.25-09.34.43:321][780]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (Light Source)
+[2017.10.25-09.35.12:498][149]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.10.25-09.35.34:433][755]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (Light Source)
+[2017.10.25-09.35.37:185][914]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.10.25-09.35.51:999][376]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.10.25-09.36.19:141][580]LogSavePackage: Save=541.64ms
+[2017.10.25-09.36.19:141][580]LogSavePackage: Moving '../../../../../Users/muthy.afifah/Downloads/StarterProject 4.16 - 3/Saved/Level2_Auto1607D6CB44114AE70FD95B794FF4F4CA2.tmp' to '../../../../../Users/muthy.afifah/Downloads/StarterProject 4.16 - 3/Saved/Autosaves/Game/Tutorial3/Level2_Auto1.umap'
+[2017.10.25-09.36.19:144][580]LogSavePackage:Display: Finished SavePackage ../../../../../Users/muthy.afifah/Downloads/StarterProject 4.16 - 3/Saved/Autosaves/Game/Tutorial3/Level2_Auto1.umap
+[2017.10.25-09.36.19:152][580]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Tutorial3/Level2' took 0.662
+[2017.10.25-09.36.19:153][580]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.662
+[2017.10.25-09.36.19:158][580]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Tutorial3/Level2_BuiltData] ([1] browsable assets)...
+[2017.10.25-09.36.19:159][580]OBJ SavePackage: Finished generating thumbnails for package [/Game/Tutorial3/Level2_BuiltData]
+[2017.10.25-09.36.19:217][580]LogSavePackage: Save=35.28ms
+[2017.10.25-09.36.19:217][580]LogSavePackage: Moving '../../../../../Users/muthy.afifah/Downloads/StarterProject 4.16 - 3/Saved/Level2_BuiltData_Auto1A07FF3CF4DA46BBD1C8187B894995F27.tmp' to '../../../../../Users/muthy.afifah/Downloads/StarterProject 4.16 - 3/Saved/Autosaves/Game/Tutorial3/Level2_BuiltData_Auto1.uasset'
+[2017.10.25-09.36.19:219][580]LogSavePackage:Display: Finished SavePackage ../../../../../Users/muthy.afifah/Downloads/StarterProject 4.16 - 3/Saved/Autosaves/Game/Tutorial3/Level2_BuiltData_Auto1.uasset
+[2017.10.25-09.36.19:219][580]LogFileHelpers: Auto-saving content packages took 0.063
+[2017.10.25-09.36.25:592][600]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.10.25-09.36.45:485][904]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (Light Source)
+[2017.10.25-09.37.27:008][806]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.10.25-09.37.28:010][842]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Statue)
+[2017.10.25-09.37.46:490][462]LogSlate: Took 0.029814 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.10.25-09.38.25:649][910]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.10.25-09.38.27:117][968]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Statue)
+[2017.10.25-09.38.37:526][304]Cmd: TRANSACTION UNDO
+[2017.10.25-09.38.37:526][304]LogEditorTransaction: Undo Move Actors
+[2017.10.25-09.39.33:184][401]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.10.25-09.39.34:800][479]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Statue)
+[2017.10.25-09.39.46:127][ 88]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Statue)
+[2017.10.25-09.41.18:944][394]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.10.25-09.41.22:260][588]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.10.25-09.41.27:066][843]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Statue)
+[2017.10.25-09.42.02:450][ 55]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tutorial3/Level2" FILE="../../../../../Users/muthy.afifah/Downloads/StarterProject 4.16 - 3/Content/Tutorial3/Level2.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.10.25-09.42.02:981][ 55]LogSavePackage: Save=456.17ms
+[2017.10.25-09.42.02:981][ 55]LogSavePackage: Moving '../../../../../Users/muthy.afifah/Downloads/StarterProject 4.16 - 3/Saved/Level253E830CA4DCD6BDAA07CFFB267CE2299.tmp' to '../../../../../Users/muthy.afifah/Downloads/StarterProject 4.16 - 3/Content/Tutorial3/Level2.umap'
+[2017.10.25-09.42.02:998][ 55]LogSavePackage:Display: Finished SavePackage ../../../../../Users/muthy.afifah/Downloads/StarterProject 4.16 - 3/Content/Tutorial3/Level2.umap
+[2017.10.25-09.42.03:083][ 55]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tutorial3/Level2_BuiltData" FILE="../../../../../Users/muthy.afifah/Downloads/StarterProject 4.16 - 3/Content/Tutorial3/Level2_BuiltData.uasset" SILENT=true
+[2017.10.25-09.42.03:375][ 55]LogSavePackage: Save=268.82ms
+[2017.10.25-09.42.03:375][ 55]LogSavePackage: Moving '../../../../../Users/muthy.afifah/Downloads/StarterProject 4.16 - 3/Saved/Level2_BuiltData59F432CC4F055B117A8A53AEB6124CD4.tmp' to '../../../../../Users/muthy.afifah/Downloads/StarterProject 4.16 - 3/Content/Tutorial3/Level2_BuiltData.uasset'
+[2017.10.25-09.42.03:383][ 55]LogSavePackage:Display: Finished SavePackage ../../../../../Users/muthy.afifah/Downloads/StarterProject 4.16 - 3/Content/Tutorial3/Level2_BuiltData.uasset
+[2017.10.25-09.42.58:751][632]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.10.25-09.43.34:022][229]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.10.25-09.43.35:755][330]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.10.25-09.43.36:831][392]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Couch)
+[2017.10.25-09.43.41:133][614]MapCheck: New page: Map Check
+[2017.10.25-09.43.41:165][614]LightingResults: New page: Lighting Build - Oct 25, 2017, 11:43:41 PM
+[2017.10.25-09.43.41:191][614]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.10.25-09.43.41:192][614]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.10.25-09.43.41:192][614]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.10.25-09.43.41:195][614]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.10.25-09.43.41:195][614]LogSwarmInterface: [TryOpenConnection] Local Process ID is 3980
+[2017.10.25-09.43.45:709][614]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2017.10.25-09.43.45:710][614]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.10.25-09.43.45:710][614]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.10.25-09.43.45:710][614]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.10.25-09.43.45:710][614]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.10.25-09.43.45:710][614]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.10.25-09.43.45:995][614]LogEditorBuildUtils: Build time 0:04
+[2017.10.25-09.43.52:190][813]Job is a success!
+[2017.10.25-09.43.52:637][815]LogTexture:Display: Building textures: SkyOcclusion0_1 (AutoDXT, 512X256)
+[2017.10.25-09.43.52:637][815]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 512X512)
+[2017.10.25-09.43.52:637][815]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1, 512X512)
+[2017.10.25-09.43.52:637][815]LogTexture:Display: Building textures: SkyOcclusion0_2 (AutoDXT, 64X32)
+[2017.10.25-09.43.52:637][815]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 64X64)
+[2017.10.25-09.43.52:637][815]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1, 64X64)
+[2017.10.25-09.43.52:764][815]LogTexture:Display: Building textures: ShadowMapTexture2D_4 (G8, 1024X128)
+[2017.10.25-09.43.52:764][815]LogTexture:Display: Building textures: ShadowMapTexture2D_5 (G8, 32X32)
+[2017.10.25-09.43.52:809][815]Lightmass on CSLAB-2601-27-2: 4.08 sec total, 506 ms importing, 128 ms setup, 359 ms photons, 3.06 sec processing, 0 ms extra exporting [8/8 mappings]. Threads: 12.2 sec total, 7.00 sec processing.
+[2017.10.25-09.43.52:816][815]LogStaticLightingSystem: Illumination: 11.6 sec (379 ms encoding lightmaps, 123 ms encoding shadowmaps)
+[2017.10.25-09.43.52:816][815]LogStaticLightingSystem: Lightmap texture memory:  0.7 MB (0.7 MB streaming, 0.0 MB non-streaming), 4 textures
+[2017.10.25-09.43.52:816][815]LogStaticLightingSystem: Shadowmap texture memory: 0.2 MB (0.2 MB streaming, 0.0 MB non-streaming), 2 textures
+[2017.10.25-09.43.53:710][815]DumpUnbuiltLightIteractions
+[2017.10.25-09.43.53:710][815]Lights with unbuilt interactions: 0
+[2017.10.25-09.43.53:710][815]
+[2017.10.25-09.43.53:710][815]Primitives with unbuilt interactions: 0
+[2017.10.25-09.43.53:728][816]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.10.25-09.43.53:729][816]MapCheck: New page: Level2 - Oct 25, 2017, 11:43:53 PM
+[2017.10.25-09.43.54:176][816]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 447.05ms to complete.
+[2017.10.25-09.43.59:400][169]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.10.25-09.44.01:691][394]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.10.25-09.44.04:636][729]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.10.25-09.44.06:941][998]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tutorial3/Level2" FILE="../../../../../Users/muthy.afifah/Downloads/StarterProject 4.16 - 3/Content/Tutorial3/Level2.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.10.25-09.44.07:116][998]LogSavePackage: Save=152.60ms
+[2017.10.25-09.44.07:116][998]LogSavePackage: Moving '../../../../../Users/muthy.afifah/Downloads/StarterProject 4.16 - 3/Saved/Level24FC9533740F2BCB08D3BE581C2F90229.tmp' to '../../../../../Users/muthy.afifah/Downloads/StarterProject 4.16 - 3/Content/Tutorial3/Level2.umap'
+[2017.10.25-09.44.07:119][998]LogSavePackage:Display: Finished SavePackage ../../../../../Users/muthy.afifah/Downloads/StarterProject 4.16 - 3/Content/Tutorial3/Level2.umap
+[2017.10.25-09.44.07:131][998]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tutorial3/Level2_BuiltData" FILE="../../../../../Users/muthy.afifah/Downloads/StarterProject 4.16 - 3/Content/Tutorial3/Level2_BuiltData.uasset" SILENT=true
+[2017.10.25-09.44.07:202][998]LogSavePackage: Save=69.11ms
+[2017.10.25-09.44.07:202][998]LogSavePackage: Moving '../../../../../Users/muthy.afifah/Downloads/StarterProject 4.16 - 3/Saved/Level2_BuiltDataEE831B0C40B770C9BAC5F79B364F5DBC.tmp' to '../../../../../Users/muthy.afifah/Downloads/StarterProject 4.16 - 3/Content/Tutorial3/Level2_BuiltData.uasset'
+[2017.10.25-09.44.07:204][998]LogSavePackage:Display: Finished SavePackage ../../../../../Users/muthy.afifah/Downloads/StarterProject 4.16 - 3/Content/Tutorial3/Level2_BuiltData.uasset
+[2017.10.25-09.44.51:989][510]LightingResults: New page: Lighting Build
+[2017.10.25-09.44.51:992][510]MapCheck: New page: Map Check
+[2017.10.25-09.44.51:992][510]LightingResults: New page: Lighting Build
+[2017.10.25-09.44.52:061][510]LogAIModule: Creating AISystem for world Untitled
+[2017.10.25-09.44.52:069][510]LoadErrors: New page: New Map
+[2017.10.25-09.45.11:201][ 31]LogAIModule: Creating AISystem for world Level2
+[2017.10.25-09.45.11:298][ 31]Cmd: MAP LOAD FILE="../../../../../Users/muthy.afifah/Downloads/StarterProject 4.16 - 3/Content/Tutorial3/Level2.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.10.25-09.45.11:298][ 31]LightingResults: New page: Lighting Build
+[2017.10.25-09.45.11:300][ 31]LoadErrors: New page: Loading map: Level2.umap
+[2017.10.25-09.45.11:301][ 31]MapCheck: New page: Map Check
+[2017.10.25-09.45.11:301][ 31]LightingResults: New page: Lighting Build
+[2017.10.25-09.45.11:383][ 31]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.10.25-09.45.11:509][ 31]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.10.25-09.45.11:681][ 31]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 172.455ms to complete.
+[2017.10.25-09.45.11:683][ 31]LogFileHelpers: Loading map 'Level2' took 0.388
+[2017.10.25-09.45.13:889][171]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Statue)
+[2017.10.25-09.45.31:339][109]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Statue)
+[2017.10.25-09.45.32:105][152]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Statue)
+[2017.10.25-09.45.34:161][295]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Statue)
+[2017.10.25-09.45.34:841][347]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Statue)
+[2017.10.25-09.45.41:865][964]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tutorial3/Level2" FILE="../../../../../Users/muthy.afifah/Downloads/StarterProject 4.16 - 3/Content/Tutorial3/Level2.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.10.25-09.45.42:034][964]LogSavePackage: Save=132.07ms
+[2017.10.25-09.45.42:034][964]LogSavePackage: Moving '../../../../../Users/muthy.afifah/Downloads/StarterProject 4.16 - 3/Saved/Level2DA5FFF2A4A4CC85D2A864BB27304215B.tmp' to '../../../../../Users/muthy.afifah/Downloads/StarterProject 4.16 - 3/Content/Tutorial3/Level2.umap'
+[2017.10.25-09.45.42:037][964]LogSavePackage:Display: Finished SavePackage ../../../../../Users/muthy.afifah/Downloads/StarterProject 4.16 - 3/Content/Tutorial3/Level2.umap
+[2017.10.25-09.45.42:055][964]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tutorial3/Level2_BuiltData" FILE="../../../../../Users/muthy.afifah/Downloads/StarterProject 4.16 - 3/Content/Tutorial3/Level2_BuiltData.uasset" SILENT=true
+[2017.10.25-09.45.42:184][964]LogSavePackage: Save=126.26ms
+[2017.10.25-09.45.42:184][964]LogSavePackage: Moving '../../../../../Users/muthy.afifah/Downloads/StarterProject 4.16 - 3/Saved/Level2_BuiltData43AE391C47A1CBC24F808C95E709BD95.tmp' to '../../../../../Users/muthy.afifah/Downloads/StarterProject 4.16 - 3/Content/Tutorial3/Level2_BuiltData.uasset'
+[2017.10.25-09.45.42:186][964]LogSavePackage:Display: Finished SavePackage ../../../../../Users/muthy.afifah/Downloads/StarterProject 4.16 - 3/Content/Tutorial3/Level2_BuiltData.uasset
+[2017.10.25-09.45.48:056][502]LightingResults: New page: Lighting Build
+[2017.10.25-09.45.48:059][502]MapCheck: New page: Map Check
+[2017.10.25-09.45.48:059][502]LightingResults: New page: Lighting Build
+[2017.10.25-09.45.48:130][502]LogAIModule: Creating AISystem for world Untitled
+[2017.10.25-09.45.48:138][502]LoadErrors: New page: New Map
+[2017.10.25-09.45.55:955][851]LogEditorViewport: Clicking Background
+[2017.10.25-09.47.04:323][608]LogEditorViewport: Clicking Background
+[2017.10.25-09.47.10:010][114]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2017.10.25-09.48.47:434][478]LogEditorViewport: Clicking Background
+[2017.10.25-09.49.07:105][433]LogEditorViewport: Clicking Background
+[2017.10.25-09.49.53:930][372]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2017.10.25-09.50.15:282][659]Cmd: TRANSACTION UNDO
+[2017.10.25-09.50.15:282][659]LogEditorTransaction: Undo Move Actors
+[2017.10.25-09.50.22:352][168]LogEditorViewport: Clicking Background
+[2017.10.25-09.51.03:453][ 73]LogEditorViewport: Clicking Background
+[2017.10.25-09.51.08:139][632]LogEditorViewport: Clicking Background
+[2017.10.25-09.51.33:229][634]Cmd: TRANSACTION UNDO
+[2017.10.25-09.51.33:229][634]LogEditorTransaction: Undo Move Actors
+[2017.10.25-09.51.33:232][634]LogActorComponent: ~FComponentReregisterContext: (/Temp/Untitled_2.Untitled:PersistentLevel.Floor.BrushComponent0) Component already registered.
+[2017.10.25-09.51.33:510][660]Cmd: TRANSACTION UNDO
+[2017.10.25-09.51.33:510][660]LogEditorTransaction: Undo Move Actors
+[2017.10.25-09.51.34:126][691]Cmd: TRANSACTION UNDO
+[2017.10.25-09.51.34:127][691]LogEditorTransaction: Undo Set actor location
+[2017.10.25-09.51.47:204][742]LogEditorViewport: Clicking Background
+[2017.10.25-09.51.57:836][996]Cmd: TRANSACTION UNDO
+[2017.10.25-09.51.57:836][996]LogEditorTransaction: Undo Move Actors
+[2017.10.25-09.51.58:603][ 47]Cmd: TRANSACTION UNDO
+[2017.10.25-09.51.58:603][ 47]LogEditorTransaction: Undo Move Actors
+[2017.10.25-09.51.59:013][ 63]Cmd: TRANSACTION UNDO
+[2017.10.25-09.51.59:013][ 63]LogEditorTransaction: Undo Select Brush Surface
+[2017.10.25-09.52.33:107][733]LogEditorViewport: Clicking Background
+[2017.10.25-09.53.01:425][855]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2017.10.25-09.53.21:577][188]LogEditorViewport: Clicking Background
+[2017.10.25-09.53.23:822][457]LogEditorViewport: Clicking Background
+[2017.10.25-09.53.24:722][565]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush2)
+[2017.10.25-09.53.27:362][876]LogEditorViewport: Clicking Background
+[2017.10.25-09.53.33:815][650]LogEditorViewport: Clicking Background
+[2017.10.25-09.53.34:257][703]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush2)
+[2017.10.25-09.53.44:068][875]LogEditorViewport: Clicking Background
+[2017.10.25-09.53.46:934][216]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2017.10.25-09.54.22:379][447]LogEditorViewport: Clicking Background
+[2017.10.25-09.54.23:406][570]LogEditorViewport: Clicking Background
+[2017.10.25-09.54.24:356][684]LogEditorViewport: Clicking on Actor (LMB): Brush (Floor)
+[2017.10.25-09.54.40:023][820]LogEditorViewport: Clicking Background
+[2017.10.25-09.54.40:923][877]LogEditorViewport: Clicking Background
+[2017.10.25-09.54.41:563][919]LogEditorViewport: Clicking on Actor (LMB): Brush (Floor)
+[2017.10.25-09.55.29:581][468]LogEditorViewport: Clicking Background
+[2017.10.25-09.55.30:513][579]LogEditorViewport: Clicking Background
+[2017.10.25-09.55.30:607][590]LogEditorViewport: Clicking Background
+[2017.10.25-09.55.32:485][814]LogEditorViewport: Clicking Background
+[2017.10.25-09.56.01:811][330]LogEditorViewport: Clicking Background
+[2017.10.25-09.56.13:074][672]LogEditorViewport: Clicking Background
+[2017.10.25-09.56.18:983][377]LogEditorViewport: Clicking Background
+[2017.10.25-09.56.42:178][531]LogEditorActor: Deleted Actor: Brush
+[2017.10.25-09.56.42:240][531]LogEditorActor: Deleted 1 Actors (0.063 secs)
+[2017.10.25-09.56.43:023][617]LogEditorActor: Deleted Actor: Brush
+[2017.10.25-09.56.43:067][617]LogEditorActor: Deleted 1 Actors (0.045 secs)
+[2017.10.25-09.56.43:794][698]LogEditorActor: Deleted Actor: Brush
+[2017.10.25-09.56.43:829][698]LogEditorActor: Deleted 1 Actors (0.036 secs)
+[2017.10.25-09.56.46:219][977]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2017.10.25-09.57.54:885][765]LogEditorViewport: Clicking Background
+[2017.10.25-09.58.02:823][715]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2017.10.25-09.58.21:448][944]LogEditorViewport: Clicking Background
+[2017.10.25-09.58.30:756][ 57]Cmd: EDIT COPY
+[2017.10.25-09.58.31:057][ 93]Cmd: EDIT PASTE
+[2017.10.25-09.58.58:166][336]LogEditorViewport: Clicking Background
+[2017.10.25-09.59.08:792][947]LogEditorViewport: Clicking Background
+[2017.10.25-09.59.23:170][544]LogEditorViewport: Clicking Background
+[2017.10.25-10.00.25:277][776]LogSavePackage: Save=959.59ms
+[2017.10.25-10.00.25:277][776]LogSavePackage: Moving '../../../../../Users/muthy.afifah/Downloads/StarterProject 4.16 - 3/Saved/Untitled_2_Auto28FF1F87B4CE4B8FDE847238675460BF3.tmp' to '../../../../../Users/muthy.afifah/Downloads/StarterProject 4.16 - 3/Saved/Autosaves/Temp/Untitled_2_Auto2.umap'
+[2017.10.25-10.00.25:279][776]LogSavePackage:Display: Finished SavePackage ../../../../../Users/muthy.afifah/Downloads/StarterProject 4.16 - 3/Saved/Autosaves/Temp/Untitled_2_Auto2.umap
+[2017.10.25-10.00.25:298][776]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_2' took 1.062
+[2017.10.25-10.00.25:298][776]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.062
+[2017.10.25-10.00.50:954][473]LogEditorViewport: Clicking Background
+[2017.10.25-10.01.24:457][603]LogEditorViewport: Clicking Background
+[2017.10.25-10.01.40:186][121]LogEditorViewport: Clicking Background
+[2017.10.25-10.02.46:282][971]LogEditorViewport: Clicking Background
+[2017.10.25-10.03.16:350][188]LogEditorViewport: Clicking Background
+[2017.10.25-10.03.47:901][384]LogEditorViewport: Clicking Background
+[2017.10.25-10.03.58:460][508]LogEditorViewport: Clicking Background
+[2017.10.25-10.04.06:574][162]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2017.10.25-10.04.20:146][824]LogEditorViewport: Clicking Background
+[2017.10.25-10.04.52:968][143]LogEditorViewport: Clicking Background
+[2017.10.25-10.05.44:541][606]LogEditorViewport: Clicking Background
+[2017.10.25-10.05.51:904][481]LogEditorViewport: Clicking Background
+[2017.10.25-10.06.53:300][810]LogEditorViewport: Clicking Background
+[2017.10.25-10.07.02:403][897]LogEditorViewport: Clicking Background
+[2017.10.25-10.07.24:129][494]LogEditorViewport: Clicking Background
+[2017.10.25-10.07.30:528][256]LogEditorViewport: Clicking Background
+[2017.10.25-10.07.33:381][593]Cmd: EDIT COPY
+[2017.10.25-10.07.33:741][636]Cmd: EDIT PASTE
+[2017.10.25-10.07.39:051][266]Cmd: TRANSACTION UNDO
+[2017.10.25-10.07.39:051][266]LogEditorTransaction: Undo Move Actors
+[2017.10.25-10.07.44:371][621]LogEditorViewport: Clicking Background
+[2017.10.25-10.08.22:384][  3]Cmd: EDIT COPY
+[2017.10.25-10.08.22:671][ 18]Cmd: EDIT PASTE
+[2017.10.25-10.08.27:984][316]Cmd: EDIT COPY
+[2017.10.25-10.08.28:283][334]Cmd: EDIT PASTE
+[2017.10.25-10.08.34:724][647]LogEditorViewport: Clicking Background
+[2017.10.25-10.08.39:735][949]LogEditorViewport: Clicking Background
+[2017.10.25-10.08.42:670][188]Cmd: EDIT COPY
+[2017.10.25-10.08.43:039][221]Cmd: EDIT PASTE
+[2017.10.25-10.08.48:280][728]Cmd: TRANSACTION UNDO
+[2017.10.25-10.08.48:280][728]LogEditorTransaction: Undo Paste
+[2017.10.25-10.08.49:511][797]LogEditorViewport: Clicking Background
+[2017.10.25-10.08.51:788][929]Cmd: TRANSACTION UNDO
+[2017.10.25-10.08.51:789][929]LogEditorTransaction: Undo Select Brush Surface
+[2017.10.25-10.08.53:238][ 31]Cmd: TRANSACTION UNDO
+[2017.10.25-10.08.53:238][ 31]LogEditorTransaction: Undo Clicking Background
+[2017.10.25-10.08.54:469][108]Cmd: TRANSACTION UNDO
+[2017.10.25-10.08.54:469][108]LogEditorTransaction: Undo Select Brush Surface
+[2017.10.25-10.08.55:498][199]Cmd: TRANSACTION UNDO
+[2017.10.25-10.08.55:498][199]LogEditorTransaction: Undo Clicking Background
+[2017.10.25-10.08.56:107][239]Cmd: TRANSACTION UNDO
+[2017.10.25-10.08.56:107][239]LogEditorTransaction: Undo Select Brush Surface
+[2017.10.25-10.08.56:646][285]Cmd: TRANSACTION UNDO
+[2017.10.25-10.08.56:646][285]LogEditorTransaction: Undo Clicking Background
+[2017.10.25-10.08.57:187][320]Cmd: TRANSACTION UNDO
+[2017.10.25-10.08.57:187][320]LogEditorTransaction: Undo Move Actors
+[2017.10.25-10.09.00:723][568]Cmd: EDIT COPY
+[2017.10.25-10.09.04:823][956]LogEditorViewport: Clicking Background
+[2017.10.25-10.09.06:242][118]Cmd: EDIT COPY
+[2017.10.25-10.09.06:521][151]Cmd: EDIT PASTE
+[2017.10.25-10.09.28:636][784]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush8)
+[2017.10.25-10.09.43:482][552]LogEditorViewport: Clicking Background
+[2017.10.25-10.09.48:658][165]LogEditorViewport: Clicking Background
+[2017.10.25-10.10.00:400][561]LogEditorViewport: Clicking Background
+[2017.10.25-10.10.03:925][978]Cmd: EDIT COPY
+[2017.10.25-10.10.04:217][ 13]Cmd: EDIT PASTE
+[2017.10.25-10.10.09:191][602]LogEditorViewport: Clicking Background
+[2017.10.25-10.10.18:844][746]LogEditorViewport: Clicking Background
+[2017.10.25-10.10.22:167][139]Cmd: EDIT COPY
+[2017.10.25-10.10.22:518][181]Cmd: EDIT PASTE
+[2017.10.25-10.10.33:203][449]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush10)
+[2017.10.25-10.10.38:861][117]Cmd: TRANSACTION UNDO
+[2017.10.25-10.10.38:862][117]LogEditorTransaction: Undo Rotate Actors
+[2017.10.25-10.10.41:563][269]Cmd: TRANSACTION UNDO
+[2017.10.25-10.10.41:563][269]LogEditorTransaction: Undo Rotate Actors
+[2017.10.25-10.10.50:798][ 76]LogEditorViewport: Clicking Background
+[2017.10.25-10.11.03:865][622]LogEditorViewport: Clicking Background
+[2017.10.25-10.11.11:833][567]LogEditorViewport: Clicking Background
+[2017.10.25-10.11.15:390][986]LogEditorViewport: Clicking Background
+[2017.10.25-10.11.18:565][359]LogEditorViewport: Clicking Background
+[2017.10.25-10.11.45:189][485]Cmd: EDIT COPY
+[2017.10.25-10.11.45:429][513]Cmd: EDIT PASTE
+[2017.10.25-10.11.51:551][240]Cmd: EDIT COPY
+[2017.10.25-10.11.51:818][271]Cmd: EDIT PASTE
+[2017.10.25-10.11.55:246][675]Cmd: EDIT PASTE
+[2017.10.25-10.12.00:462][294]LogEditorViewport: Clicking Background
+[2017.10.25-10.12.15:049][375]Cmd: EDIT COPY
+[2017.10.25-10.12.15:348][397]Cmd: EDIT PASTE
+[2017.10.25-10.12.23:943][155]Cmd: EDIT PASTE
+[2017.10.25-10.12.37:214][730]LogEditorViewport: Clicking Background
+[2017.10.25-10.13.06:716][200]LogSavePackage: Save=1635.39ms
+[2017.10.25-10.13.06:716][200]LogSavePackage: Moving '../../../../../Users/muthy.afifah/Downloads/StarterProject 4.16 - 3/Saved/Untitled_2_Auto36F63876942515845F5FB72850D2988D7.tmp' to '../../../../../Users/muthy.afifah/Downloads/StarterProject 4.16 - 3/Saved/Autosaves/Temp/Untitled_2_Auto3.umap'
+[2017.10.25-10.13.06:719][200]LogSavePackage:Display: Finished SavePackage ../../../../../Users/muthy.afifah/Downloads/StarterProject 4.16 - 3/Saved/Autosaves/Temp/Untitled_2_Auto3.umap
+[2017.10.25-10.13.06:725][200]LogSlate: Took 0.000470 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.10.25-10.13.06:733][200]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_2' took 1.751
+[2017.10.25-10.13.06:733][200]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.751
+[2017.10.25-10.14.18:600][421]LogEditorViewport: Clicking Background
+[2017.10.25-10.14.36:648][356]LogEditorViewport: Clicking Background
+[2017.10.25-10.16.26:962][466]LogEditorViewport: Clicking Background
+[2017.10.25-10.16.38:936][460]LogEditorViewport: Clicking Background
+[2017.10.25-10.17.26:197][214]LogEditorViewport: Clicking Background
+[2017.10.25-10.27.18:300][127]LogEditorViewport: Clicking Background
+[2017.10.25-10.27.29:906][853]LogEditorViewport: Clicking Background
+[2017.10.25-10.27.37:555][360]LogEditorViewport: Clicking Background
+[2017.10.25-10.27.45:895][774]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2017.10.25-10.27.46:841][829]Cmd: TRANSACTION UNDO
+[2017.10.25-10.27.46:841][829]LogEditorTransaction: Undo Brush Add
+[2017.10.25-10.27.50:166][ 69]Cmd: EDIT COPY
+[2017.10.25-10.27.50:681][109]Cmd: EDIT PASTE
+[2017.10.25-10.27.59:629][913]Cmd: TRANSACTION UNDO
+[2017.10.25-10.27.59:629][913]LogEditorTransaction: Undo Move Actors
+[2017.10.25-10.27.59:642][913]LogActorComponent: ~FComponentReregisterContext: (/Temp/Untitled_2.Untitled:PersistentLevel.BoxBrush13.BrushComponent0) Component already registered.
+[2017.10.25-10.27.59:644][913]LogActorComponent: ~FComponentReregisterContext: (/Temp/Untitled_2.Untitled:PersistentLevel.BoxBrush9.BrushComponent0) Component already registered.
+[2017.10.25-10.28.45:887][391]Cmd: TRANSACTION UNDO
+[2017.10.25-10.28.45:887][391]LogEditorTransaction: Undo Rotate Actors
+[2017.10.25-10.28.45:894][391]LogActorComponent: ~FComponentReregisterContext: (/Temp/Untitled_2.Untitled:PersistentLevel.BoxBrush13.BrushComponent0) Component already registered.
+[2017.10.25-10.28.45:895][391]LogActorComponent: ~FComponentReregisterContext: (/Temp/Untitled_2.Untitled:PersistentLevel.BoxBrush9.BrushComponent0) Component already registered.
+[2017.10.25-10.28.56:862][190]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush16)
+[2017.10.25-10.29.11:216][672]LogEditorViewport: Clicking Background
+[2017.10.25-10.29.27:535][613]LogEditorViewport: Clicking Background
+[2017.10.25-10.30.08:695][780]Cmd: EDIT COPY
+[2017.10.25-10.30.09:137][824]Cmd: EDIT PASTE
+[2017.10.25-10.30.21:420][240]LogEditorViewport: Clicking Background
+[2017.10.25-10.30.38:168][240]Cmd: EDIT COPY
+[2017.10.25-10.30.38:485][278]Cmd: EDIT PASTE
+[2017.10.25-10.30.45:571][120]LogEditorViewport: Clicking Background
+[2017.10.25-10.30.49:765][621]Cmd: TRANSACTION UNDO
+[2017.10.25-10.30.49:765][621]LogEditorTransaction: Undo Clicking Background
+[2017.10.25-10.30.56:950][109]Cmd: TRANSACTION UNDO
+[2017.10.25-10.30.56:950][109]LogEditorTransaction: Undo Move Actors
+[2017.10.25-10.30.56:967][109]LogActorComponent: ~FComponentReregisterContext: (/Temp/Untitled_2.Untitled:PersistentLevel.BoxBrush5.BrushComponent0) Component already registered.
+[2017.10.25-10.30.56:975][109]LogActorComponent: ~FComponentReregisterContext: (/Temp/Untitled_2.Untitled:PersistentLevel.BoxBrush12.BrushComponent0) Component already registered.
+[2017.10.25-10.31.11:319][800]Cmd: TRANSACTION UNDO
+[2017.10.25-10.31.11:319][800]LogEditorTransaction: Undo Move Actors
+[2017.10.25-10.31.11:336][800]LogActorComponent: ~FComponentReregisterContext: (/Temp/Untitled_2.Untitled:PersistentLevel.BoxBrush5.BrushComponent0) Component already registered.
+[2017.10.25-10.31.11:344][800]LogActorComponent: ~FComponentReregisterContext: (/Temp/Untitled_2.Untitled:PersistentLevel.BoxBrush12.BrushComponent0) Component already registered.
+[2017.10.25-10.31.13:460][964]Cmd: TRANSACTION REDO
+[2017.10.25-10.31.13:461][964]LogEditorTransaction: Redo Move Actors
+[2017.10.25-10.31.15:590][149]LogEditorViewport: Clicking Background
+[2017.10.25-10.31.37:229][679]LogEditorViewport: Clicking Background
+[2017.10.25-10.33.00:885][837]LogEditorViewport: Clicking Background
+[2017.10.25-10.33.19:203][276]Cmd: TRANSACTION UNDO
+[2017.10.25-10.33.19:203][276]LogEditorTransaction: Undo Move Actors
+[2017.10.25-10.33.19:215][276]LogActorComponent: ~FComponentReregisterContext: (/Temp/Untitled_2.Untitled:PersistentLevel.BoxBrush5.BrushComponent0) Component already registered.
+[2017.10.25-10.33.19:221][276]LogActorComponent: ~FComponentReregisterContext: (/Temp/Untitled_2.Untitled:PersistentLevel.BoxBrush12.BrushComponent0) Component already registered.
+[2017.10.25-10.33.19:432][291]Cmd: TRANSACTION UNDO
+[2017.10.25-10.33.19:432][291]LogEditorTransaction: Undo Select Brush Surface
+[2017.10.25-10.33.20:303][369]Cmd: TRANSACTION UNDO
+[2017.10.25-10.33.20:303][369]LogEditorTransaction: Undo Select Brush Surface
+[2017.10.25-10.33.20:857][427]Cmd: TRANSACTION UNDO
+[2017.10.25-10.33.20:857][427]LogEditorTransaction: Undo Select Brush Surface
+[2017.10.25-10.33.21:257][468]Cmd: TRANSACTION UNDO
+[2017.10.25-10.33.21:257][468]LogEditorTransaction: Undo Select Brush Surface
+[2017.10.25-10.33.21:854][538]Cmd: TRANSACTION UNDO
+[2017.10.25-10.33.21:854][538]LogEditorTransaction: Undo Clicking Background
+[2017.10.25-10.33.22:292][585]Cmd: TRANSACTION UNDO
+[2017.10.25-10.33.22:292][585]LogEditorTransaction: Undo Select Brush Surface
+[2017.10.25-10.33.22:710][630]Cmd: TRANSACTION UNDO
+[2017.10.25-10.33.22:710][630]LogEditorTransaction: Undo Select Brush Surface
+[2017.10.25-10.33.23:122][679]Cmd: TRANSACTION UNDO
+[2017.10.25-10.33.23:122][679]LogEditorTransaction: Undo Clicking Background
+[2017.10.25-10.33.23:537][728]Cmd: TRANSACTION UNDO
+[2017.10.25-10.33.23:537][728]LogEditorTransaction: Undo Clicking Background
+[2017.10.25-10.33.24:010][782]Cmd: TRANSACTION UNDO
+[2017.10.25-10.33.24:010][782]LogEditorTransaction: Undo Move Actors
+[2017.10.25-10.33.24:016][782]LogActorComponent: ~FComponentReregisterContext: (/Temp/Untitled_2.Untitled:PersistentLevel.BoxBrush5.BrushComponent0) Component already registered.
+[2017.10.25-10.33.24:020][782]LogActorComponent: ~FComponentReregisterContext: (/Temp/Untitled_2.Untitled:PersistentLevel.BoxBrush12.BrushComponent0) Component already registered.
+[2017.10.25-10.33.25:435][948]Cmd: TRANSACTION REDO
+[2017.10.25-10.33.25:435][948]LogEditorTransaction: Redo Move Actors
+[2017.10.25-10.33.27:392][178]Cmd: TRANSACTION UNDO
+[2017.10.25-10.33.27:392][178]LogEditorTransaction: Undo Move Actors
+[2017.10.25-10.33.27:398][178]LogActorComponent: ~FComponentReregisterContext: (/Temp/Untitled_2.Untitled:PersistentLevel.BoxBrush5.BrushComponent0) Component already registered.
+[2017.10.25-10.33.27:401][178]LogActorComponent: ~FComponentReregisterContext: (/Temp/Untitled_2.Untitled:PersistentLevel.BoxBrush12.BrushComponent0) Component already registered.
+[2017.10.25-10.33.43:364][ 68]LogActor:Warning: VREditorButton /Engine/Transient.World_3:PersistentLevel.VREditorButton_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2017.10.25-10.34.23:948][308]LogSavePackage: Save=437.12ms
+[2017.10.25-10.34.23:948][308]LogSavePackage: Moving '../../../../../Users/muthy.afifah/Downloads/StarterProject 4.16 - 3/Saved/Untitled_2_Auto4F3331BAD4D2AFABE058D7DBA4A70F2B6.tmp' to '../../../../../Users/muthy.afifah/Downloads/StarterProject 4.16 - 3/Saved/Autosaves/Temp/Untitled_2_Auto4.umap'
+[2017.10.25-10.34.23:949][308]LogSavePackage:Display: Finished SavePackage ../../../../../Users/muthy.afifah/Downloads/StarterProject 4.16 - 3/Saved/Autosaves/Temp/Untitled_2_Auto4.umap
+[2017.10.25-10.34.23:951][308]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_2' took 0.479
+[2017.10.25-10.34.23:951][308]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.479
+[2017.10.25-10.35.02:712][923]Cmd: TRANSACTION UNDO
+[2017.10.25-10.35.02:712][923]LogEditorTransaction: Undo Move Actors
+[2017.10.25-10.35.02:736][923]LogActorComponent: ~FComponentReregisterContext: (/Temp/Untitled_2.Untitled:PersistentLevel.BoxBrush5.BrushComponent0) Component already registered.
+[2017.10.25-10.35.02:747][923]LogActorComponent: ~FComponentReregisterContext: (/Temp/Untitled_2.Untitled:PersistentLevel.BoxBrush12.BrushComponent0) Component already registered.
+[2017.10.25-10.35.26:882][472]Cmd: TRANSACTION UNDO
+[2017.10.25-10.35.26:882][472]LogEditorTransaction: Undo Rotate Actors
+[2017.10.25-10.35.26:887][472]LogActorComponent: ~FComponentReregisterContext: (/Temp/Untitled_2.Untitled:PersistentLevel.BoxBrush5.BrushComponent0) Component already registered.
+[2017.10.25-10.35.26:890][472]LogActorComponent: ~FComponentReregisterContext: (/Temp/Untitled_2.Untitled:PersistentLevel.BoxBrush12.BrushComponent0) Component already registered.
+[2017.10.25-10.35.30:177][648]LogEditorViewport: Clicking Background
+[2017.10.25-10.35.55:807][908]LogEditorViewport: Clicking Background
+[2017.10.25-10.36.31:140][862]Cmd: TRANSACTION UNDO
+[2017.10.25-10.36.31:140][862]LogEditorTransaction: Undo Modifier [Flip]
+[2017.10.25-10.36.31:146][862]LogActorComponent: ~FComponentReregisterContext: (/Temp/Untitled_2.Untitled:PersistentLevel.BoxBrush5.BrushComponent0) Component already registered.
+[2017.10.25-10.36.31:149][862]LogActorComponent: ~FComponentReregisterContext: (/Temp/Untitled_2.Untitled:PersistentLevel.BoxBrush12.BrushComponent0) Component already registered.
+[2017.10.25-10.36.38:149][378]Cmd: TRANSACTION UNDO
+[2017.10.25-10.36.38:149][378]LogEditorTransaction: Undo Modifier [Edit]
+[2017.10.25-10.36.45:629][149]Cmd: TRANSACTION UNDO
+[2017.10.25-10.36.45:629][149]LogEditorTransaction: Undo Modifier [Edit]
+[2017.10.25-10.36.46:041][181]Cmd: TRANSACTION UNDO
+[2017.10.25-10.36.46:041][181]LogEditorTransaction: Undo Modifier [Edit]
+[2017.10.25-10.36.46:439][194]Cmd: TRANSACTION UNDO
+[2017.10.25-10.36.46:439][194]LogEditorTransaction: Undo Modifier [Edit]
+[2017.10.25-10.36.46:979][221]Cmd: TRANSACTION UNDO
+[2017.10.25-10.36.46:979][221]LogEditorTransaction: Undo Modifier [Edit]
+[2017.10.25-10.36.47:504][249]Cmd: TRANSACTION UNDO
+[2017.10.25-10.36.47:504][249]LogEditorTransaction: Undo Modifier [Edit]
+[2017.10.25-10.36.47:885][272]Cmd: TRANSACTION UNDO
+[2017.10.25-10.36.47:886][272]LogEditorTransaction: Undo Modifier [Triangulate]
+[2017.10.25-10.36.47:907][272]LogActorComponent: ~FComponentReregisterContext: (/Temp/Untitled_2.Untitled:PersistentLevel.BoxBrush5.BrushComponent0) Component already registered.
+[2017.10.25-10.36.47:916][272]LogActorComponent: ~FComponentReregisterContext: (/Temp/Untitled_2.Untitled:PersistentLevel.BoxBrush12.BrushComponent0) Component already registered.
+[2017.10.25-10.36.48:727][326]Cmd: TRANSACTION UNDO
+[2017.10.25-10.36.48:727][326]LogEditorTransaction: Undo Modifier [Edit]
+[2017.10.25-10.36.49:700][397]Cmd: TRANSACTION UNDO
+[2017.10.25-10.36.49:700][397]LogEditorTransaction: Undo Modifier [Optimize]
+[2017.10.25-10.36.50:579][464]Cmd: TRANSACTION UNDO
+[2017.10.25-10.36.50:579][464]LogEditorTransaction: Undo Modifier [Triangulate]
+[2017.10.25-10.36.50:596][464]LogActorComponent: ~FComponentReregisterContext: (/Temp/Untitled_2.Untitled:PersistentLevel.BoxBrush5.BrushComponent0) Component already registered.
+[2017.10.25-10.36.50:604][464]LogActorComponent: ~FComponentReregisterContext: (/Temp/Untitled_2.Untitled:PersistentLevel.BoxBrush12.BrushComponent0) Component already registered.
+[2017.10.25-10.36.51:228][510]Cmd: TRANSACTION UNDO
+[2017.10.25-10.36.51:228][510]LogEditorTransaction: Undo Select Brush Surface
+[2017.10.25-10.36.53:407][747]Cmd: TRANSACTION UNDO
+[2017.10.25-10.36.53:407][747]LogEditorTransaction: Undo Select Brush Surface
+[2017.10.25-10.36.53:904][805]Cmd: TRANSACTION UNDO
+[2017.10.25-10.36.53:904][805]LogEditorTransaction: Undo Clicking Background
+[2017.10.25-10.36.54:507][876]Cmd: TRANSACTION UNDO
+[2017.10.25-10.36.54:507][876]LogEditorTransaction: Undo Clicking Background
+[2017.10.25-10.36.55:277][965]Cmd: TRANSACTION UNDO
+[2017.10.25-10.36.55:277][965]LogEditorTransaction: Undo Modifier [Triangulate]
+[2017.10.25-10.36.55:286][965]LogActorComponent: ~FComponentReregisterContext: (/Temp/Untitled_2.Untitled:PersistentLevel.BoxBrush5.BrushComponent0) Component already registered.
+[2017.10.25-10.36.55:290][965]LogActorComponent: ~FComponentReregisterContext: (/Temp/Untitled_2.Untitled:PersistentLevel.BoxBrush12.BrushComponent0) Component already registered.
+[2017.10.25-10.36.57:490][224]Cmd: TRANSACTION UNDO
+[2017.10.25-10.36.57:490][224]LogEditorTransaction: Undo Select Brush Surface
+[2017.10.25-10.37.01:318][678]Cmd: TRANSACTION UNDO
+[2017.10.25-10.37.01:318][678]LogEditorTransaction: Undo Select Brush Surface
+[2017.10.25-10.37.04:517][889]Cmd: TRANSACTION UNDO
+[2017.10.25-10.37.04:517][889]LogEditorTransaction: Undo Move Actors
+[2017.10.25-10.37.04:534][889]LogActorComponent: ~FComponentReregisterContext: (/Temp/Untitled_2.Untitled:PersistentLevel.BoxBrush5.BrushComponent0) Component already registered.
+[2017.10.25-10.37.04:542][889]LogActorComponent: ~FComponentReregisterContext: (/Temp/Untitled_2.Untitled:PersistentLevel.BoxBrush12.BrushComponent0) Component already registered.
+[2017.10.25-10.37.05:658][969]Cmd: TRANSACTION REDO
+[2017.10.25-10.37.05:658][969]LogEditorTransaction: Redo Move Actors
+[2017.10.25-10.37.31:238][412]Cmd: TRANSACTION UNDO
+[2017.10.25-10.37.31:238][412]LogEditorTransaction: Undo Move Actors
+[2017.10.25-10.37.31:248][412]LogActorComponent: ~FComponentReregisterContext: (/Temp/Untitled_2.Untitled:PersistentLevel.BoxBrush5.BrushComponent0) Component already registered.
+[2017.10.25-10.37.31:253][412]LogActorComponent: ~FComponentReregisterContext: (/Temp/Untitled_2.Untitled:PersistentLevel.BoxBrush12.BrushComponent0) Component already registered.
+[2017.10.25-10.37.43:748][421]LogEditorActor: Deleted Actor: Brush
+[2017.10.25-10.37.43:792][421]LogEditorActor: Deleted 1 Actors (0.044 secs)
+[2017.10.25-10.37.45:615][639]Cmd: TRANSACTION UNDO
+[2017.10.25-10.37.45:615][639]LogEditorTransaction: Undo Delete selection
+[2017.10.25-10.37.45:626][639]LogActorComponent: ~FComponentReregisterContext: (/Temp/Untitled_2.Untitled:PersistentLevel.BoxBrush10.BrushComponent0) Component already registered.
+[2017.10.25-10.37.51:024][921]LogEditorViewport: Clicking Background
+[2017.10.25-10.37.58:787][626]Cmd: TRANSACTION UNDO
+[2017.10.25-10.37.58:787][626]LogEditorTransaction: Undo Move Actors
+[2017.10.25-10.37.58:798][626]LogActorComponent: ~FComponentReregisterContext: (/Temp/Untitled_2.Untitled:PersistentLevel.BoxBrush5.BrushComponent0) Component already registered.
+[2017.10.25-10.37.58:803][626]LogActorComponent: ~FComponentReregisterContext: (/Temp/Untitled_2.Untitled:PersistentLevel.BoxBrush12.BrushComponent0) Component already registered.
+[2017.10.25-10.38.01:884][808]LogEditorViewport: Clicking Background
+[2017.10.25-10.38.16:216][414]LogEditorViewport: Clicking Background
+[2017.10.25-10.38.48:444][ 98]LogEditorViewport: Clicking Background
+[2017.10.25-10.39.09:830][446]LogEditorViewport: Clicking Background
+[2017.10.25-10.39.46:105][674]Cmd: TRANSACTION UNDO
+[2017.10.25-10.39.46:105][674]LogEditorTransaction: Undo Move Actors
+[2017.10.25-10.39.46:111][674]LogActorComponent: ~FComponentReregisterContext: (/Temp/Untitled_2.Untitled:PersistentLevel.BoxBrush5.BrushComponent0) Component already registered.
+[2017.10.25-10.39.46:114][674]LogActorComponent: ~FComponentReregisterContext: (/Temp/Untitled_2.Untitled:PersistentLevel.BoxBrush12.BrushComponent0) Component already registered.
+[2017.10.25-10.39.46:115][674]LogGeometryMode:Warning: Unable to find 1 Poly(s) in new BSP
+[2017.10.25-10.39.46:115][674]LogGeometryMode:Warning: Unable to resolve BoxBrush17 Brush in new BSP, see above
+[2017.10.25-10.39.46:115][674]LogGeometryMode:Warning: Unable to find all previously selected geometry data, resetting selection
+[2017.10.25-10.39.57:202][785]Cmd: TRANSACTION UNDO
+[2017.10.25-10.39.57:202][785]LogEditorTransaction: Undo Move Actors
+[2017.10.25-10.39.57:207][785]LogActorComponent: ~FComponentReregisterContext: (/Temp/Untitled_2.Untitled:PersistentLevel.BoxBrush5.BrushComponent0) Component already registered.
+[2017.10.25-10.39.57:211][785]LogActorComponent: ~FComponentReregisterContext: (/Temp/Untitled_2.Untitled:PersistentLevel.BoxBrush12.BrushComponent0) Component already registered.
+[2017.10.25-10.39.57:212][785]LogGeometryMode:Warning: Unable to find 1 Vertex(s) in new BSP
+[2017.10.25-10.39.57:212][785]LogGeometryMode:Warning: Unable to resolve BoxBrush17 Brush in new BSP, see above
+[2017.10.25-10.39.57:212][785]LogGeometryMode:Warning: Unable to find all previously selected geometry data, resetting selection
+[2017.10.25-10.40.03:022][265]Cmd: TRANSACTION UNDO
+[2017.10.25-10.40.03:022][265]LogEditorTransaction: Undo Move Actors
+[2017.10.25-10.40.03:032][265]LogActorComponent: ~FComponentReregisterContext: (/Temp/Untitled_2.Untitled:PersistentLevel.BoxBrush5.BrushComponent0) Component already registered.
+[2017.10.25-10.40.03:038][265]LogActorComponent: ~FComponentReregisterContext: (/Temp/Untitled_2.Untitled:PersistentLevel.BoxBrush12.BrushComponent0) Component already registered.
+[2017.10.25-10.40.03:041][265]LogGeometryMode:Warning: Unable to find 1 Poly(s) in new BSP
+[2017.10.25-10.40.03:041][265]LogGeometryMode:Warning: Unable to resolve BoxBrush17 Brush in new BSP, see above
+[2017.10.25-10.40.03:041][265]LogGeometryMode:Warning: Unable to find all previously selected geometry data, resetting selection
+[2017.10.25-10.40.04:617][417]LogGeometryMode:Warning: Unable to find 1 Poly(s) in new BSP
+[2017.10.25-10.40.04:617][417]LogGeometryMode:Warning: Unable to resolve BoxBrush17 Brush in new BSP, see above
+[2017.10.25-10.40.04:617][417]LogGeometryMode:Warning: Unable to find all previously selected geometry data, resetting selection
+[2017.10.25-10.40.16:102][782]Cmd: TRANSACTION UNDO
+[2017.10.25-10.40.16:102][782]LogEditorTransaction: Undo Modifier [Triangulate]
+[2017.10.25-10.40.16:108][782]LogActorComponent: ~FComponentReregisterContext: (/Temp/Untitled_2.Untitled:PersistentLevel.BoxBrush5.BrushComponent0) Component already registered.
+[2017.10.25-10.40.16:111][782]LogActorComponent: ~FComponentReregisterContext: (/Temp/Untitled_2.Untitled:PersistentLevel.BoxBrush12.BrushComponent0) Component already registered.
+[2017.10.25-10.40.16:535][813]Cmd: TRANSACTION UNDO
+[2017.10.25-10.40.16:535][813]LogEditorTransaction: Undo Modifier [Flip]
+[2017.10.25-10.40.16:566][813]LogActorComponent: ~FComponentReregisterContext: (/Temp/Untitled_2.Untitled:PersistentLevel.BoxBrush5.BrushComponent0) Component already registered.
+[2017.10.25-10.40.16:582][813]LogActorComponent: ~FComponentReregisterContext: (/Temp/Untitled_2.Untitled:PersistentLevel.BoxBrush12.BrushComponent0) Component already registered.
+[2017.10.25-10.40.17:459][851]Cmd: TRANSACTION UNDO
+[2017.10.25-10.40.17:459][851]LogEditorTransaction: Undo Modifier [Optimize]
+[2017.10.25-10.40.17:947][872]Cmd: TRANSACTION UNDO
+[2017.10.25-10.40.17:947][872]LogEditorTransaction: Undo Modifier [Edit]
+[2017.10.25-10.40.18:712][921]Cmd: TRANSACTION UNDO
+[2017.10.25-10.40.18:712][921]LogEditorTransaction: Undo Modifier [Edit]
+[2017.10.25-10.40.19:887][ 12]Cmd: TRANSACTION UNDO
+[2017.10.25-10.40.19:887][ 12]LogEditorTransaction: Undo Modifier [Triangulate]
+[2017.10.25-10.40.19:905][ 12]LogActorComponent: ~FComponentReregisterContext: (/Temp/Untitled_2.Untitled:PersistentLevel.BoxBrush5.BrushComponent0) Component already registered.
+[2017.10.25-10.40.19:914][ 12]LogActorComponent: ~FComponentReregisterContext: (/Temp/Untitled_2.Untitled:PersistentLevel.BoxBrush12.BrushComponent0) Component already registered.
+[2017.10.25-10.40.38:041][672]Cmd: TRANSACTION UNDO
+[2017.10.25-10.40.38:041][672]LogEditorTransaction: Undo Move Actors
+[2017.10.25-10.40.38:051][672]LogActorComponent: ~FComponentReregisterContext: (/Temp/Untitled_2.Untitled:PersistentLevel.BoxBrush5.BrushComponent0) Component already registered.
+[2017.10.25-10.40.38:057][672]LogActorComponent: ~FComponentReregisterContext: (/Temp/Untitled_2.Untitled:PersistentLevel.BoxBrush12.BrushComponent0) Component already registered.
+[2017.10.25-10.40.38:059][672]LogGeometryMode:Warning: Unable to find 1 Poly(s) in new BSP
+[2017.10.25-10.40.38:060][672]LogGeometryMode:Warning: Unable to resolve BoxBrush17 Brush in new BSP, see above
+[2017.10.25-10.40.38:060][672]LogGeometryMode:Warning: Unable to find all previously selected geometry data, resetting selection
+[2017.10.25-10.40.47:287][449]LogGeometryMode:Warning: Unable to find BoxBrush3_10 Brush(s) in new BSP
+[2017.10.25-10.40.47:287][449]LogGeometryMode:Warning: Unable to find all previously selected geometry data, resetting selection
+[2017.10.25-10.40.50:014][676]Cmd: TRANSACTION UNDO
+[2017.10.25-10.40.50:014][676]LogEditorTransaction: Undo Select Brush Surface
+[2017.10.25-10.40.50:687][722]Cmd: TRANSACTION UNDO
+[2017.10.25-10.40.50:687][722]LogEditorTransaction: Undo Select Brush Surface
+[2017.10.25-10.40.51:231][767]Cmd: TRANSACTION UNDO
+[2017.10.25-10.40.51:231][767]LogEditorTransaction: Undo Move Actors
+[2017.10.25-10.40.51:246][767]LogActorComponent: ~FComponentReregisterContext: (/Temp/Untitled_2.Untitled:PersistentLevel.BoxBrush5.BrushComponent0) Component already registered.
+[2017.10.25-10.40.51:253][767]LogActorComponent: ~FComponentReregisterContext: (/Temp/Untitled_2.Untitled:PersistentLevel.BoxBrush12.BrushComponent0) Component already registered.
+[2017.10.25-10.40.51:858][820]Cmd: TRANSACTION UNDO
+[2017.10.25-10.40.51:858][820]LogEditorTransaction: Undo Modifier [Edit]
+[2017.10.25-10.40.52:295][858]Cmd: TRANSACTION UNDO
+[2017.10.25-10.40.52:295][858]LogEditorTransaction: Undo Modifier [Edit]
+[2017.10.25-10.40.52:742][898]Cmd: TRANSACTION UNDO
+[2017.10.25-10.40.52:742][898]LogEditorTransaction: Undo Modifier [Edit]
+[2017.10.25-10.40.53:181][936]Cmd: TRANSACTION UNDO
+[2017.10.25-10.40.53:181][936]LogEditorTransaction: Undo Modifier [Edit]
+[2017.10.25-10.40.53:561][969]Cmd: TRANSACTION UNDO
+[2017.10.25-10.40.53:561][969]LogEditorTransaction: Undo Move Actors
+[2017.10.25-10.40.53:577][969]LogActorComponent: ~FComponentReregisterContext: (/Temp/Untitled_2.Untitled:PersistentLevel.BoxBrush5.BrushComponent0) Component already registered.
+[2017.10.25-10.40.53:584][969]LogActorComponent: ~FComponentReregisterContext: (/Temp/Untitled_2.Untitled:PersistentLevel.BoxBrush12.BrushComponent0) Component already registered.
+[2017.10.25-10.40.53:587][969]LogGeometryMode:Warning: Unable to find 1 Vertex(s) in new BSP
+[2017.10.25-10.40.53:587][969]LogGeometryMode:Warning: Unable to resolve BoxBrush17 Brush in new BSP, see above
+[2017.10.25-10.40.53:587][969]LogGeometryMode:Warning: Unable to find all previously selected geometry data, resetting selection
+[2017.10.25-10.41.01:380][831]Cmd: TRANSACTION UNDO
+[2017.10.25-10.41.01:380][831]LogEditorTransaction: Undo Move Actors
+[2017.10.25-10.41.01:388][831]LogActorComponent: ~FComponentReregisterContext: (/Temp/Untitled_2.Untitled:PersistentLevel.BoxBrush5.BrushComponent0) Component already registered.
+[2017.10.25-10.41.01:392][831]LogActorComponent: ~FComponentReregisterContext: (/Temp/Untitled_2.Untitled:PersistentLevel.BoxBrush12.BrushComponent0) Component already registered.
+[2017.10.25-10.41.01:394][831]LogGeometryMode:Warning: Unable to find 1 Poly(s) in new BSP
+[2017.10.25-10.41.01:394][831]LogGeometryMode:Warning: Unable to resolve BoxBrush17 Brush in new BSP, see above
+[2017.10.25-10.41.01:394][831]LogGeometryMode:Warning: Unable to find all previously selected geometry data, resetting selection
+[2017.10.25-10.41.03:601][966]LogGeometryMode:Warning: Unable to find BoxBrush18 Brush(s) in new BSP
+[2017.10.25-10.41.03:601][966]LogGeometryMode:Warning: Unable to find all previously selected geometry data, resetting selection
+[2017.10.25-10.41.08:749][437]LogEditorViewport: Clicking Background
+[2017.10.25-10.41.38:560][842]Cmd: TRANSACTION UNDO
+[2017.10.25-10.41.38:560][842]LogEditorTransaction: Undo Move Actors
+[2017.10.25-10.41.38:565][842]LogActorComponent: ~FComponentReregisterContext: (/Temp/Untitled_2.Untitled:PersistentLevel.BoxBrush5.BrushComponent0) Component already registered.
+[2017.10.25-10.41.38:569][842]LogActorComponent: ~FComponentReregisterContext: (/Temp/Untitled_2.Untitled:PersistentLevel.BoxBrush12.BrushComponent0) Component already registered.
+[2017.10.25-10.41.38:570][842]LogGeometryMode:Warning: Unable to find 1 Edge(s) in new BSP
+[2017.10.25-10.41.38:570][842]LogGeometryMode:Warning: Unable to resolve BoxBrush18 Brush in new BSP, see above
+[2017.10.25-10.41.38:570][842]LogGeometryMode:Warning: Unable to find all previously selected geometry data, resetting selection
+[2017.10.25-10.41.40:662][976]Cmd: TRANSACTION UNDO
+[2017.10.25-10.41.40:663][976]LogEditorTransaction: Undo Modifier [Edit]
+[2017.10.25-10.41.41:981][ 84]Cmd: TRANSACTION UNDO
+[2017.10.25-10.41.41:981][ 84]LogEditorTransaction: Undo Select Brush Surface
+[2017.10.25-10.41.47:750][751]LogEditorViewport: Clicking Background
+[2017.10.25-10.42.08:559][148]LogEditorViewport: Clicking Background
+[2017.10.25-10.42.29:132][530]LogEditorViewport: Clicking Background
+[2017.10.25-10.42.35:987][328]Cmd: EDIT COPY
+[2017.10.25-10.42.36:280][363]Cmd: EDIT PASTE
+[2017.10.25-10.42.41:346][962]LogEditorViewport: Clicking Background
+[2017.10.25-10.42.51:477][154]Cmd: TRANSACTION UNDO
+[2017.10.25-10.42.51:477][154]LogEditorTransaction: Undo Clicking Background
+[2017.10.25-10.42.52:020][192]Cmd: TRANSACTION UNDO
+[2017.10.25-10.42.52:020][192]LogEditorTransaction: Undo Move Actors
+[2017.10.25-10.42.52:065][192]LogActorComponent: ~FComponentReregisterContext: (/Temp/Untitled_2.Untitled:PersistentLevel.Floor.BrushComponent0) Component already registered.
+[2017.10.25-10.42.52:071][192]LogActorComponent: ~FComponentReregisterContext: (/Temp/Untitled_2.Untitled:PersistentLevel.BoxBrush18.BrushComponent0) Component already registered.
+[2017.10.25-10.43.27:299][258]LogEditorViewport: Clicking Background
+[2017.10.25-10.43.36:302][934]Cmd: TRANSACTION UNDO
+[2017.10.25-10.43.36:302][934]LogEditorTransaction: Undo Select Brush Surface
+[2017.10.25-10.43.36:746][969]Cmd: TRANSACTION UNDO
+[2017.10.25-10.43.36:747][969]LogEditorTransaction: Undo Clicking Background
+[2017.10.25-10.43.37:264][ 14]Cmd: TRANSACTION UNDO
+[2017.10.25-10.43.37:264][ 14]LogEditorTransaction: Undo Move Actors
+[2017.10.25-10.43.37:280][ 14]LogActorComponent: ~FComponentReregisterContext: (/Temp/Untitled_2.Untitled:PersistentLevel.Floor.BrushComponent0) Component already registered.
+[2017.10.25-10.43.37:828][ 66]Cmd: TRANSACTION UNDO
+[2017.10.25-10.43.37:828][ 66]LogEditorTransaction: Undo Move Actors
+[2017.10.25-10.43.37:844][ 66]LogActorComponent: ~FComponentReregisterContext: (/Temp/Untitled_2.Untitled:PersistentLevel.Floor.BrushComponent0) Component already registered.
+[2017.10.25-10.43.37:851][ 66]LogGeometryMode:Warning: Unable to find 1 Poly(s) in new BSP
+[2017.10.25-10.43.37:851][ 66]LogGeometryMode:Warning: Unable to resolve BoxBrush18 Brush in new BSP, see above
+[2017.10.25-10.43.37:851][ 66]LogGeometryMode:Warning: Unable to find all previously selected geometry data, resetting selection
+[2017.10.25-10.43.52:076][756]LogGeometryMode:Warning: Unable to find BoxBrush17 Brush(s) in new BSP
+[2017.10.25-10.43.52:076][756]LogGeometryMode:Warning: Unable to find all previously selected geometry data, resetting selection
+[2017.10.25-10.44.11:171][  5]LogGeometryMode:Warning: Unable to find BoxBrush11 Brush(s) in new BSP
+[2017.10.25-10.44.11:171][  5]LogGeometryMode:Warning: Unable to find all previously selected geometry data, resetting selection
+[2017.10.25-10.44.34:055][677]LogEditorViewport: Clicking Background
+[2017.10.25-10.44.48:660][415]Cmd: TRANSACTION UNDO
+[2017.10.25-10.44.48:660][415]LogEditorTransaction: Undo Move Actors
+[2017.10.25-10.44.48:668][415]LogActorComponent: ~FComponentReregisterContext: (/Temp/Untitled_2.Untitled:PersistentLevel.Floor.BrushComponent0) Component already registered.
+[2017.10.25-10.44.48:671][415]LogGeometryMode:Warning: Unable to find 1 Poly(s) in new BSP
+[2017.10.25-10.44.48:671][415]LogGeometryMode:Warning: Unable to resolve BoxBrush17 Brush in new BSP, see above
+[2017.10.25-10.44.48:671][415]LogGeometryMode:Warning: Unable to find all previously selected geometry data, resetting selection
+[2017.10.25-10.44.53:621][787]LogEditorViewport: Clicking Background
+[2017.10.25-10.45.17:140][565]LogGeometryMode:Warning: Unable to find BoxBrush3_10 Brush(s) in new BSP
+[2017.10.25-10.45.17:140][565]LogGeometryMode:Warning: Unable to find all previously selected geometry data, resetting selection
+[2017.10.25-10.45.22:715][224]Cmd: TRANSACTION UNDO
+[2017.10.25-10.45.22:715][224]LogEditorTransaction: Undo Select Brush Surface
+[2017.10.25-10.45.23:490][276]Cmd: TRANSACTION UNDO
+[2017.10.25-10.45.23:490][276]LogEditorTransaction: Undo Select Brush Surface
+[2017.10.25-10.45.24:086][302]Cmd: TRANSACTION UNDO
+[2017.10.25-10.45.24:086][302]LogEditorTransaction: Undo Move Actors
+[2017.10.25-10.45.24:116][302]LogActorComponent: ~FComponentReregisterContext: (/Temp/Untitled_2.Untitled:PersistentLevel.Floor.BrushComponent0) Component already registered.
+[2017.10.25-10.45.24:686][331]Cmd: TRANSACTION UNDO
+[2017.10.25-10.45.24:687][331]LogEditorTransaction: Undo Modifier [Edit]
+[2017.10.25-10.45.25:101][352]Cmd: TRANSACTION UNDO
+[2017.10.25-10.45.25:101][352]LogEditorTransaction: Undo Move Actors
+[2017.10.25-10.45.25:131][352]LogActorComponent: ~FComponentReregisterContext: (/Temp/Untitled_2.Untitled:PersistentLevel.Floor.BrushComponent0) Component already registered.
+[2017.10.25-10.45.25:144][352]LogGeometryMode:Warning: Unable to find 1 Vertex(s) in new BSP
+[2017.10.25-10.45.25:144][352]LogGeometryMode:Warning: Unable to resolve BoxBrush17 Brush in new BSP, see above
+[2017.10.25-10.45.25:144][352]LogGeometryMode:Warning: Unable to find all previously selected geometry data, resetting selection
+[2017.10.25-10.45.26:131][408]Cmd: TRANSACTION UNDO
+[2017.10.25-10.45.26:132][408]LogEditorTransaction: Undo Move Actors
+[2017.10.25-10.45.26:160][408]LogActorComponent: ~FComponentReregisterContext: (/Temp/Untitled_2.Untitled:PersistentLevel.Floor.BrushComponent0) Component already registered.
+[2017.10.25-10.45.26:366][415]Cmd: TRANSACTION UNDO
+[2017.10.25-10.45.26:366][415]LogEditorTransaction: Undo Modifier [Edit]
+[2017.10.25-10.45.26:826][438]Cmd: TRANSACTION UNDO
+[2017.10.25-10.45.26:826][438]LogEditorTransaction: Undo Modifier [Edit]
+[2017.10.25-10.45.27:282][462]Cmd: TRANSACTION UNDO
+[2017.10.25-10.45.27:282][462]LogEditorTransaction: Undo Select Brush Surface
+[2017.10.25-10.45.46:096][516]Cmd: TRANSACTION UNDO
+[2017.10.25-10.45.46:096][516]LogEditorTransaction: Undo Select Brush Surface
+[2017.10.25-10.45.46:601][554]Cmd: TRANSACTION UNDO
+[2017.10.25-10.45.46:601][554]LogEditorTransaction: Undo Clicking Background
+[2017.10.25-10.45.47:199][579]Cmd: TRANSACTION UNDO
+[2017.10.25-10.45.47:199][579]LogEditorTransaction: Undo Modifier [Edit]
+[2017.10.25-10.45.47:647][602]Cmd: TRANSACTION UNDO
+[2017.10.25-10.45.47:647][602]LogEditorTransaction: Undo Select Brush Surface
+[2017.10.25-10.45.48:108][634]Cmd: TRANSACTION UNDO
+[2017.10.25-10.45.48:108][634]LogEditorTransaction: Undo Clicking Background
+[2017.10.25-10.45.48:521][654]Cmd: TRANSACTION UNDO
+[2017.10.25-10.45.48:521][654]LogEditorTransaction: Undo Select Brush Surface
+[2017.10.25-10.45.49:062][681]Cmd: TRANSACTION UNDO
+[2017.10.25-10.45.49:062][681]LogEditorTransaction: Undo Move Actors
+[2017.10.25-10.45.49:092][681]LogActorComponent: ~FComponentReregisterContext: (/Temp/Untitled_2.Untitled:PersistentLevel.Floor.BrushComponent0) Component already registered.
+[2017.10.25-10.45.49:514][702]Cmd: TRANSACTION UNDO
+[2017.10.25-10.45.49:514][702]LogEditorTransaction: Undo Modifier [Edit]
+[2017.10.25-10.45.50:859][793]Cmd: TRANSACTION UNDO
+[2017.10.25-10.45.50:859][793]LogEditorTransaction: Undo Modifier [Edit]
+[2017.10.25-10.45.51:353][830]Cmd: TRANSACTION UNDO
+[2017.10.25-10.45.51:353][830]LogEditorTransaction: Undo Move Actors
+[2017.10.25-10.45.51:373][830]LogActorComponent: ~FComponentReregisterContext: (/Temp/Untitled_2.Untitled:PersistentLevel.Floor.BrushComponent0) Component already registered.
+[2017.10.25-10.45.51:382][830]LogGeometryMode:Warning: Unable to find 1 Vertex(s) in new BSP
+[2017.10.25-10.45.51:382][830]LogGeometryMode:Warning: Unable to resolve BoxBrush17 Brush in new BSP, see above
+[2017.10.25-10.45.51:382][830]LogGeometryMode:Warning: Unable to find all previously selected geometry data, resetting selection
+[2017.10.25-10.46.03:030][ 60]Cmd: TRANSACTION UNDO
+[2017.10.25-10.46.03:030][ 60]LogEditorTransaction: Undo Move Actors
+[2017.10.25-10.46.03:039][ 60]LogActorComponent: ~FComponentReregisterContext: (/Temp/Untitled_2.Untitled:PersistentLevel.Floor.BrushComponent0) Component already registered.
+[2017.10.25-10.46.03:044][ 60]LogGeometryMode:Warning: Unable to find 1 Vertex(s) in new BSP
+[2017.10.25-10.46.03:044][ 60]LogGeometryMode:Warning: Unable to resolve BoxBrush17 Brush in new BSP, see above
+[2017.10.25-10.46.03:044][ 60]LogGeometryMode:Warning: Unable to find all previously selected geometry data, resetting selection
+[2017.10.25-10.46.16:931][967]LogEditorViewport: Clicking Background
+[2017.10.25-10.46.19:345][232]Cmd: TRANSACTION UNDO
+[2017.10.25-10.46.19:345][232]LogEditorTransaction: Undo Clicking Background
+[2017.10.25-10.46.19:798][263]Cmd: TRANSACTION UNDO
+[2017.10.25-10.46.19:798][263]LogEditorTransaction: Undo Move Actors
+[2017.10.25-10.46.19:824][263]LogActorComponent: ~FComponentReregisterContext: (/Temp/Untitled_2.Untitled:PersistentLevel.Floor.BrushComponent0) Component already registered.
+[2017.10.25-10.46.19:831][263]LogGeometryMode:Warning: Unable to find 1 Vertex(s) in new BSP
+[2017.10.25-10.46.19:831][263]LogGeometryMode:Warning: Unable to resolve BoxBrush17 Brush in new BSP, see above
+[2017.10.25-10.46.19:831][263]LogGeometryMode:Warning: Unable to find all previously selected geometry data, resetting selection
+[2017.10.25-10.46.28:602][270]LogEditorViewport: Clicking Background
+[2017.10.25-10.46.45:299][245]LogGeometryMode:Warning: Unable to find BoxBrush2_8 Brush(s) in new BSP
+[2017.10.25-10.46.45:299][245]LogGeometryMode:Warning: Unable to find all previously selected geometry data, resetting selection
+[2017.10.25-10.46.49:507][738]LogEditorViewport: Clicking Background
+[2017.10.25-10.46.56:939][625]LogEditorViewport: Clicking Background
+[2017.10.25-10.48.02:964][930]LogEditorViewport: Clicking Background
+[2017.10.25-10.48.20:023][547]LogEditorViewport: Clicking Background
+[2017.10.25-10.48.29:182][419]LogEditorViewport: Clicking Background
+[2017.10.25-10.48.45:445][ 12]LogEditorViewport: Clicking Background
+[2017.10.25-10.48.57:120][312]LogEditorViewport: Clicking Background
+[2017.10.25-10.49.22:605][137]LogGeometryMode:Warning: Unable to find BoxBrush15 Brush(s) in new BSP
+[2017.10.25-10.49.22:605][137]LogGeometryMode:Warning: Unable to find all previously selected geometry data, resetting selection
+[2017.10.25-10.49.34:443][347]LogEditorViewport: Clicking Background
+[2017.10.25-10.49.47:596][830]LogEditorViewport: Clicking Background
+[2017.10.25-10.50.07:518][165]LogEditorViewport: Clicking Background
+[2017.10.25-10.50.24:727][459]LogEditorViewport: Clicking Background
+[2017.10.25-10.50.42:998][601]LogEditorViewport: Clicking Background
+[2017.10.25-10.51.16:478][ 47]LogEditorViewport: Clicking Background
+[2017.10.25-10.51.47:703][634]LogSavePackage: Save=1915.25ms
+[2017.10.25-10.51.47:703][634]LogSavePackage: Moving '../../../../../Users/muthy.afifah/Downloads/StarterProject 4.16 - 3/Saved/Untitled_2_Auto54BC4B7ED4F4A594B33A117BAD6BBB4F7.tmp' to '../../../../../Users/muthy.afifah/Downloads/StarterProject 4.16 - 3/Saved/Autosaves/Temp/Untitled_2_Auto5.umap'
+[2017.10.25-10.51.47:706][634]LogSavePackage:Display: Finished SavePackage ../../../../../Users/muthy.afifah/Downloads/StarterProject 4.16 - 3/Saved/Autosaves/Temp/Untitled_2_Auto5.umap
+[2017.10.25-10.51.47:724][634]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_2' took 2.073
+[2017.10.25-10.51.47:724][634]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 2.073
+[2017.10.25-10.53.25:311][634]LogEditorViewport: Clicking Background
+[2017.10.25-10.53.36:875][879]LogEditorViewport: Clicking Background
+[2017.10.25-10.53.51:230][574]LogEditorViewport: Clicking Background
+[2017.10.25-10.58.01:982][267]LogEditorViewport: Clicking Background
+[2017.10.25-10.58.26:718][325]LogGeometryMode:Warning: Unable to find BoxBrush3_10 Brush(s) in new BSP
+[2017.10.25-10.58.26:718][325]LogGeometryMode:Warning: Unable to find all previously selected geometry data, resetting selection
+[2017.10.25-10.58.30:865][805]LogGeometryMode:Warning: Unable to find BoxBrush2_8 Brush(s) in new BSP
+[2017.10.25-10.58.30:865][805]LogGeometryMode:Warning: Unable to find all previously selected geometry data, resetting selection
+[2017.10.25-10.58.46:979][628]LogGeometryMode:Warning: Unable to find BoxBrush11 Brush(s) in new BSP
+[2017.10.25-10.58.46:979][628]LogGeometryMode:Warning: Unable to find all previously selected geometry data, resetting selection
+[2017.10.25-10.58.57:095][833]Cmd: TRANSACTION UNDO
+[2017.10.25-10.58.57:095][833]LogEditorTransaction: Undo Select Brush Surface
+[2017.10.25-10.58.57:681][875]Cmd: TRANSACTION UNDO
+[2017.10.25-10.58.57:681][875]LogEditorTransaction: Undo Select Brush Surface
+[2017.10.25-10.58.58:278][900]Cmd: TRANSACTION UNDO
+[2017.10.25-10.58.58:278][900]LogEditorTransaction: Undo Move Actors
+[2017.10.25-10.58.58:310][900]LogActorComponent: ~FComponentReregisterContext: (/Temp/Untitled_2.Untitled:PersistentLevel.Floor.BrushComponent0) Component already registered.
+[2017.10.25-10.58.59:512][967]LogGeometryMode:Warning: Unable to find BoxBrush3_10 Brush(s) in new BSP
+[2017.10.25-10.58.59:512][967]LogGeometryMode:Warning: Unable to find all previously selected geometry data, resetting selection
+[2017.10.25-11.01.37:392][702]LogGeometryMode:Warning: Unable to find BoxBrush2_8 Brush(s) in new BSP
+[2017.10.25-11.01.37:392][702]LogGeometryMode:Warning: Unable to find all previously selected geometry data, resetting selection
+[2017.10.25-11.01.40:113][ 22]LogEditorViewport: Clicking Background
+[2017.10.25-11.02.18:698][ 40]LogEditorViewport: Clicking on Actor (LMB): Brush (Floor)
+[2017.10.25-11.02.20:643][191]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight)
+[2017.10.25-11.02.42:128][432]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight)
+[2017.10.25-11.02.57:424][ 11]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight)
+[2017.10.25-11.03.01:549][500]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight)
+[2017.10.25-11.03.05:740][  1]Cmd: EDIT COPY
+[2017.10.25-11.03.06:109][ 45]Cmd: EDIT PASTE
+[2017.10.25-11.03.15:441][148]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight)
+[2017.10.25-11.03.19:702][653]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight2)
+[2017.10.25-11.03.30:084][886]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight)
+[2017.10.25-11.04.02:060][741]LogSavePackage: Save=1859.24ms
+[2017.10.25-11.04.02:060][741]LogSavePackage: Moving '../../../../../Users/muthy.afifah/Downloads/StarterProject 4.16 - 3/Saved/Untitled_2_Auto6125369294B8E811F379753ACCD9052A3.tmp' to '../../../../../Users/muthy.afifah/Downloads/StarterProject 4.16 - 3/Saved/Autosaves/Temp/Untitled_2_Auto6.umap'
+[2017.10.25-11.04.02:062][741]LogSavePackage:Display: Finished SavePackage ../../../../../Users/muthy.afifah/Downloads/StarterProject 4.16 - 3/Saved/Autosaves/Temp/Untitled_2_Auto6.umap
+[2017.10.25-11.04.02:070][741]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_2' took 1.982
+[2017.10.25-11.04.02:070][741]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.982
+[2017.10.25-11.04.32:987][961]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0039 seconds. Added 112 classes and 0 folders.
+[2017.10.25-11.04.35:414][961]LogSlate: Took 0.029654 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.10.25-11.08.51:577][481]LogActorFactory: Actor Factory created SM_Lamp_Ceiling
+[2017.10.25-11.08.54:958][659]LogActorFactory: Actor Factory created SM_Lamp_Ceiling
+[2017.10.25-11.09.00:920][ 97]LogEditorViewport: Clicking Background
+[2017.10.25-11.09.04:783][458]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Lamp_Ceiling)
+[2017.10.25-11.09.16:422][318]LogEditorViewport: Clicking Background
+[2017.10.25-11.09.18:472][425]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Lamp_Ceiling)
+[2017.10.25-11.09.23:643][726]LogEditorViewport: Clicking Background
+[2017.10.25-11.09.35:245][467]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Lamp_Ceiling)
+[2017.10.25-11.09.54:927][512]LogEditorViewport: Clicking Background
+[2017.10.25-11.09.56:059][587]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Lamp_Ceiling)
+[2017.10.25-11.10.12:278][665]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Lamp_Ceiling)
+[2017.10.25-11.10.21:426][133]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Lamp_Ceiling)
+[2017.10.25-11.10.23:163][206]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Lamp_Ceiling)
+[2017.10.25-11.10.32:209][845]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight2)
+[2017.10.25-11.10.33:117][909]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Lamp_Ceiling)
+[2017.10.25-11.10.48:374][327]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Lamp_Ceiling)
+[2017.10.25-11.10.55:952][222]LogEditorViewport: Clicking Background
+[2017.10.25-11.11.01:784][914]LogEditorViewport: Clicking Background
+[2017.10.25-11.11.10:172][916]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Lamp_Ceiling)
+[2017.10.25-11.11.15:375][526]LogEditorViewport: Clicking Background
+[2017.10.25-11.11.17:786][812]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Lamp_Ceiling)
+[2017.10.25-11.11.19:094][963]Cmd: EDIT COPY
+[2017.10.25-11.11.19:365][995]Cmd: EDIT PASTE
+[2017.10.25-11.11.30:305][293]Cmd: TRANSACTION UNDO
+[2017.10.25-11.11.30:305][293]LogEditorTransaction: Undo Move Actors
+[2017.10.25-11.11.30:681][326]Cmd: TRANSACTION UNDO
+[2017.10.25-11.11.30:681][326]LogEditorTransaction: Undo Move Actors
+[2017.10.25-11.11.43:606][311]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight)
+[2017.10.25-11.11.48:314][821]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight2)
+[2017.10.25-11.11.51:581][196]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Lamp_Ceiling2)
+[2017.10.25-11.11.58:315][992]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight)
+[2017.10.25-11.12.06:850][  0]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Lamp_Ceiling2)
+[2017.10.25-11.12.10:674][437]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Lamp_Ceiling)
+[2017.10.25-11.12.17:426][238]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight2)
+[2017.10.25-11.14.56:868][180]LogSavePackage: Save=1783.63ms
+[2017.10.25-11.14.56:868][180]LogSavePackage: Moving '../../../../../Users/muthy.afifah/Downloads/StarterProject 4.16 - 3/Saved/Untitled_2_Auto7F4C6AD25442D865704643CA888284F9B.tmp' to '../../../../../Users/muthy.afifah/Downloads/StarterProject 4.16 - 3/Saved/Autosaves/Temp/Untitled_2_Auto7.umap'
+[2017.10.25-11.14.56:870][180]LogSavePackage:Display: Finished SavePackage ../../../../../Users/muthy.afifah/Downloads/StarterProject 4.16 - 3/Saved/Autosaves/Temp/Untitled_2_Auto7.umap
+[2017.10.25-11.14.56:878][180]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_2' took 1.944
+[2017.10.25-11.14.56:878][180]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.944
+[2017.10.25-11.15.56:618][575]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight)
+[2017.10.25-11.17.24:205][897]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Lamp_Ceiling)
+[2017.10.25-11.17.40:573][703]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Lamp_Ceiling2)
+[2017.10.25-11.18.14:044][960]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'UserConstructionScript' or package '/Engine/Transient'.
+[2017.10.25-11.18.14:045][960]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_SM_Lamp_Ceiling_Blueprint_C_1' or package '/Engine/Transient'.
+[2017.10.25-11.18.14:045][960]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DefaultSceneRoot_GEN_VARIABLE' or package '/Engine/Transient'.
+[2017.10.25-11.18.14:045][960]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'SimpleConstructionScript_0' or package '/Engine/Transient'.
+[2017.10.25-11.18.14:046][960]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_SM_Lamp_Ceiling_Blueprint_C_0' or package '/Engine/Transient'.
+[2017.10.25-11.18.14:046][960]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_SM_Lamp_Ceiling_Blueprint_C_91' or package '/Engine/Transient'.
+[2017.10.25-11.18.14:047][960]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SM_Lamp_Ceiling_Blueprint_C_90' or package '/Engine/Transient'.
+[2017.10.25-11.18.19:834][ 70]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'UserConstructionScript' or package '/Engine/Transient'.
+[2017.10.25-11.18.19:834][ 70]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_SM_Lamp_Ceiling2_Blueprint_C_3' or package '/Engine/Transient'.
+[2017.10.25-11.18.19:834][ 70]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DefaultSceneRoot_GEN_VARIABLE' or package '/Engine/Transient'.
+[2017.10.25-11.18.19:835][ 70]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'SimpleConstructionScript_0' or package '/Engine/Transient'.
+[2017.10.25-11.18.19:835][ 70]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_SM_Lamp_Ceiling2_Blueprint_C_2' or package '/Engine/Transient'.
+[2017.10.25-11.18.19:835][ 70]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_SM_Lamp_Ceiling2_Blueprint_C_93' or package '/Engine/Transient'.
+[2017.10.25-11.18.19:836][ 70]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SM_Lamp_Ceiling2_Blueprint_C_92' or package '/Engine/Transient'.
+[2017.10.25-11.21.30:570][527]LogActorFactory: Actor Factory created SM_Lamp_Ceiling
+[2017.10.25-11.21.30:986][546]LogActorFactory: Actor Factory created SM_Lamp_Ceiling
+[2017.10.25-11.21.43:100][500]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Lamp_Ceiling)
+[2017.10.25-11.21.52:449][567]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Lamp_Ceiling)
+[2017.10.25-11.21.57:676][177]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Lamp_Ceiling)
+[2017.10.25-11.22.02:870][784]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight)
+[2017.10.25-11.22.07:157][287]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight)
+[2017.10.25-11.22.08:602][456]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Lamp_Ceiling)
+[2017.10.25-11.22.10:503][678]Cmd: EDIT COPY
+[2017.10.25-11.22.10:764][709]Cmd: EDIT PASTE
+[2017.10.25-11.22.21:849][ 21]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Lamp_Ceiling2)
+[2017.10.25-11.22.30:198][  9]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight2)
+[2017.10.25-11.22.30:900][ 89]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Lamp_Ceiling2)
+[2017.10.25-11.22.38:366][963]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Lamp_Ceiling2)
+[2017.10.25-11.22.46:949][979]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight2)
+[2017.10.25-11.24.04:839][329]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Lamp_Ceiling2)
+[2017.10.25-11.24.19:323][696]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight2)
+[2017.10.25-11.24.25:162][383]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight)
+[2017.10.25-11.24.27:113][611]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Lamp_Ceiling2)
+[2017.10.25-11.24.38:795][990]Cmd: TRANSACTION UNDO
+[2017.10.25-11.24.38:795][990]LogEditorTransaction: Undo Move Actors
+[2017.10.25-11.24.38:802][990]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Temp/Untitled_2.Untitled:PersistentLevel.ModelComponent_1992' invalid (586 verts, 0 indices).
+[2017.10.25-11.24.38:802][990]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Temp/Untitled_2.Untitled:PersistentLevel.ModelComponent_1993' invalid (586 verts, 0 indices).
+[2017.10.25-11.24.38:802][990]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Temp/Untitled_2.Untitled:PersistentLevel.ModelComponent_1994' invalid (586 verts, 0 indices).
+[2017.10.25-11.24.38:802][990]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Temp/Untitled_2.Untitled:PersistentLevel.ModelComponent_1995' invalid (586 verts, 0 indices).
+[2017.10.25-11.24.38:802][990]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Temp/Untitled_2.Untitled:PersistentLevel.ModelComponent_1996' invalid (586 verts, 0 indices).
+[2017.10.25-11.24.38:802][990]LogActorComponent: ~FComponentReregisterContext: (/Temp/Untitled_2.Untitled:PersistentLevel.Floor.BrushComponent0) Component already registered.
+[2017.10.25-11.24.39:255][ 21]Cmd: TRANSACTION UNDO
+[2017.10.25-11.24.39:256][ 21]LogEditorTransaction: Undo Select Brush Surface
+[2017.10.25-11.24.47:976][602]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight2)
+[2017.10.25-11.25.45:368][ 81]LogEditorTransaction: Undo Add Node
+[2017.10.25-11.27.39:437][216]LogSavePackage: Save=548.53ms
+[2017.10.25-11.27.39:437][216]LogSavePackage: Moving '../../../../../Users/muthy.afifah/Downloads/StarterProject 4.16 - 3/Saved/Untitled_2_Auto80A173928478A10295E4836BD8A05F48A.tmp' to '../../../../../Users/muthy.afifah/Downloads/StarterProject 4.16 - 3/Saved/Autosaves/Temp/Untitled_2_Auto8.umap'
+[2017.10.25-11.27.39:439][216]LogSavePackage:Display: Finished SavePackage ../../../../../Users/muthy.afifah/Downloads/StarterProject 4.16 - 3/Saved/Autosaves/Temp/Untitled_2_Auto8.umap
+[2017.10.25-11.27.39:444][216]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_2' took 0.722
+[2017.10.25-11.27.39:444][216]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.722
+[2017.10.25-11.27.46:191][648]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight2)
+[2017.10.25-11.32.39:060][497]LogEditorTransaction: Undo Add Node
+[2017.10.25-11.37.18:179][736]BlueprintLog: New page: Compile Untitled
+[2017.10.25-11.37.42:821][199]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight)
+[2017.10.25-11.39.02:858][384]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2017.10.25-11.39.03:203][388]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.StarterProject
+[2017.10.25-11.39.03:203][388]LogTemp: CWD: C:\Unreal Engine 4\UE_4.16\Engine\Binaries\DotNET\IOS
+[2017.10.25-11.39.03:203][388]LogTemp: Initial Dir: C:\Unreal Engine 4\UE_4.16
+[2017.10.25-11.39.03:203][388]LogTemp: Env CWD: C:\Unreal Engine 4\UE_4.16\Engine\Binaries\DotNET\IOS
+[2017.10.25-11.39.03:203][388]LogTemp: BranchPath = CSLAB-2601-27-2/C/Unreal Engine 4/UE_4.16/Engine/Binaries --- GameBranchPath = CSLAB-2601-27-2/C/Unreal Engine 4/UE_4.16/Engine/Binaries
+[2017.10.25-11.39.03:276][390]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\muthy.afifah\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2017.10.25-11.42.22:681][800]LogSavePackage: Save=607.10ms
+[2017.10.25-11.42.22:681][800]LogSavePackage: Moving '../../../../../Users/muthy.afifah/Downloads/StarterProject 4.16 - 3/Saved/Untitled_2_Auto97EA00DE043683E02E2E40DAD3D84D35E.tmp' to '../../../../../Users/muthy.afifah/Downloads/StarterProject 4.16 - 3/Saved/Autosaves/Temp/Untitled_2_Auto9.umap'
+[2017.10.25-11.42.22:683][800]LogSavePackage:Display: Finished SavePackage ../../../../../Users/muthy.afifah/Downloads/StarterProject 4.16 - 3/Saved/Autosaves/Temp/Untitled_2_Auto9.umap
+[2017.10.25-11.42.22:688][800]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_2' took 0.769
+[2017.10.25-11.42.22:688][800]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.769
+[2017.10.25-11.42.27:041][ 48]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight)
+[2017.10.25-11.45.57:752][259]LogEditorTransaction: Undo Add Node
+[2017.10.25-11.48.54:161][718]LogEditorTransaction: Undo Move Node
+[2017.10.25-11.48.55:103][747]LogEditorTransaction: Undo Add Node
+[2017.10.25-11.50.40:805][880]BlueprintLog: New page: Compile Untitled
+[2017.10.25-11.50.44:178][ 81]LogTemp: Repeting last play command: Selected Viewport
+[2017.10.25-11.50.44:247][ 81]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Temp/Untitled_2.Untitled:PersistentLevel' has LevelScriptBlueprint '/Temp/Untitled_2.Untitled:PersistentLevel.Untitled' with GeneratedClass '/Temp/Untitled_2.Untitled_C' with ClassGeneratedBy '/Temp/Untitled_2.Untitled:PersistentLevel.Untitled'
+[2017.10.25-11.50.44:247][ 81]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.25-11.50.44:247][ 81]PIE: New page: PIE session: Untitled_2 (Oct 26, 2017, 1:50:44 AM)
+[2017.10.25-11.50.44:247][ 81]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_2
+[2017.10.25-11.50.44:256][ 81]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008854s)
+[2017.10.25-11.50.44:257][ 81]LogAIModule: Creating AISystem for world Untitled
+[2017.10.25-11.50.44:257][ 81]LogPlayLevel: PIE: World Init took: (0.001014s)
+[2017.10.25-11.50.44:257][ 81]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_2.Untitled to /Temp/UEDPIE_0_Untitled_2.Untitled (0.010155s)
+[2017.10.25-11.50.44:309][ 81]LogInit: XAudio2 using 'ASUS VS197-8 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.25-11.50.44:320][ 81]LogInit: FAudioDevice initialized.
+[2017.10.25-11.50.44:366][ 81]LogLoad: Game class is 'GameModeBase'
+[2017.10.25-11.50.44:370][ 81]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_2.Untitled up for play (max tick rate 0) at 2017.10.25-18.50.44
+[2017.10.25-11.50.44:371][ 81]LogWorld: Bringing up level for play took: 0.003045
+[2017.10.25-11.50.44:560][ 81]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0023 seconds. Added 11 classes and 0 folders.
+[2017.10.25-11.50.44:563][ 81]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_2 0.112
+[2017.10.25-11.50.44:564][ 81]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Temp/Untitled_2.Untitled:PersistentLevel' has LevelScriptBlueprint '/Temp/Untitled_2.Untitled:PersistentLevel.Untitled' with GeneratedClass '/Temp/Untitled_2.Untitled_C' with ClassGeneratedBy '/Temp/Untitled_2.Untitled:PersistentLevel.Untitled'
+[2017.10.25-11.50.57:991][983]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Temp/Untitled_2.Untitled:PersistentLevel' has LevelScriptBlueprint '/Temp/Untitled_2.Untitled:PersistentLevel.Untitled' with GeneratedClass '/Temp/Untitled_2.Untitled_C' with ClassGeneratedBy '/Temp/Untitled_2.Untitled:PersistentLevel.Untitled'
+[2017.10.25-11.50.58:063][983]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Temp/Untitled_2.Untitled:PersistentLevel' has LevelScriptBlueprint '/Temp/Untitled_2.Untitled:PersistentLevel.Untitled' with GeneratedClass '/Temp/Untitled_2.Untitled_C' with ClassGeneratedBy '/Temp/Untitled_2.Untitled:PersistentLevel.Untitled'
+[2017.10.25-11.50.59:129][ 26]LogTemp: Repeting last play command: Selected Viewport
+[2017.10.25-11.50.59:166][ 26]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Temp/Untitled_2.Untitled:PersistentLevel' has LevelScriptBlueprint '/Temp/Untitled_2.Untitled:PersistentLevel.Untitled' with GeneratedClass '/Temp/Untitled_2.Untitled_C' with ClassGeneratedBy '/Temp/Untitled_2.Untitled:PersistentLevel.Untitled'
+[2017.10.25-11.50.59:166][ 26]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.25-11.50.59:166][ 26]PIE: New page: PIE session: Untitled_2 (Oct 26, 2017, 1:50:59 AM)
+[2017.10.25-11.50.59:166][ 26]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_2
+[2017.10.25-11.50.59:183][ 26]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016046s)
+[2017.10.25-11.50.59:184][ 26]LogAIModule: Creating AISystem for world Untitled
+[2017.10.25-11.50.59:185][ 26]LogPlayLevel: PIE: World Init took: (0.002122s)
+[2017.10.25-11.50.59:185][ 26]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_2.Untitled to /Temp/UEDPIE_0_Untitled_2.Untitled (0.018764s)
+[2017.10.25-11.50.59:274][ 26]LogInit: XAudio2 using 'ASUS VS197-8 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.25-11.50.59:292][ 26]LogInit: FAudioDevice initialized.
+[2017.10.25-11.50.59:333][ 26]LogLoad: Game class is 'GameModeBase'
+[2017.10.25-11.50.59:336][ 26]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_2.Untitled up for play (max tick rate 0) at 2017.10.25-18.50.59
+[2017.10.25-11.50.59:336][ 26]LogWorld: Bringing up level for play took: 0.002309
+[2017.10.25-11.50.59:339][ 26]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_2 0.888
+[2017.10.25-11.50.59:339][ 26]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Temp/Untitled_2.Untitled:PersistentLevel' has LevelScriptBlueprint '/Temp/Untitled_2.Untitled:PersistentLevel.Untitled' with GeneratedClass '/Temp/Untitled_2.Untitled_C' with ClassGeneratedBy '/Temp/Untitled_2.Untitled:PersistentLevel.Untitled'
+[2017.10.25-11.51.05:899][672]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Temp/Untitled_2.Untitled:PersistentLevel' has LevelScriptBlueprint '/Temp/Untitled_2.Untitled:PersistentLevel.Untitled' with GeneratedClass '/Temp/Untitled_2.Untitled_C' with ClassGeneratedBy '/Temp/Untitled_2.Untitled:PersistentLevel.Untitled'
+[2017.10.25-11.51.05:949][672]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Temp/Untitled_2.Untitled:PersistentLevel' has LevelScriptBlueprint '/Temp/Untitled_2.Untitled:PersistentLevel.Untitled' with GeneratedClass '/Temp/Untitled_2.Untitled_C' with ClassGeneratedBy '/Temp/Untitled_2.Untitled:PersistentLevel.Untitled'
+[2017.10.25-11.53.11:510][382]LogSavePackage: Save=621.75ms
+[2017.10.25-11.53.11:510][382]LogSavePackage: Moving '../../../../../Users/muthy.afifah/Downloads/StarterProject 4.16 - 3/Saved/Untitled_2_Auto03B5415F849A83787A670F38FB650073B.tmp' to '../../../../../Users/muthy.afifah/Downloads/StarterProject 4.16 - 3/Saved/Autosaves/Temp/Untitled_2_Auto0.umap'
+[2017.10.25-11.53.11:513][382]LogSavePackage:Display: Finished SavePackage ../../../../../Users/muthy.afifah/Downloads/StarterProject 4.16 - 3/Saved/Autosaves/Temp/Untitled_2_Auto0.umap
+[2017.10.25-11.53.11:520][382]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_2' took 0.809
+[2017.10.25-11.53.11:520][382]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.809
+[2017.10.25-11.53.16:475][429]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tutorial3/NewMap" FILE="../../../../../Users/muthy.afifah/Downloads/StarterProject 4.16 - 3/Content/Tutorial3/NewMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.10.25-11.53.17:286][429]LogSavePackage: Save=709.35ms
+[2017.10.25-11.53.17:286][429]LogSavePackage: Moving '../../../../../Users/muthy.afifah/Downloads/StarterProject 4.16 - 3/Saved/NewMapA18E0A8F43BA7F3A5CF551BDB1486AC8.tmp' to '../../../../../Users/muthy.afifah/Downloads/StarterProject 4.16 - 3/Content/Tutorial3/NewMap.umap'
+[2017.10.25-11.53.17:293][429]LogSavePackage:Display: Finished SavePackage ../../../../../Users/muthy.afifah/Downloads/StarterProject 4.16 - 3/Content/Tutorial3/NewMap.umap
+[2017.10.25-11.53.17:375][429]LogFileHelpers: Saving map 'NewMap' took 1.536
+[2017.10.25-11.53.20:881][530]LightingResults: New page: Lighting Build
+[2017.10.25-11.53.20:885][530]MapCheck: New page: Map Check
+[2017.10.25-11.53.20:885][530]LightingResults: New page: Lighting Build
+[2017.10.25-11.53.20:998][530]LogAIModule: Creating AISystem for world Untitled
+[2017.10.25-11.53.21:006][530]LoadErrors: New page: New Map
+[2017.10.25-11.53.47:517][645]LogLinker: Can't find file '/Game/Tutorial3/NewWidgetBlueprint'
+[2017.10.25-11.53.47:519][645]LogLinker: Can't find file '/Game/Tutorial3/NewWidgetBlueprint'
+[2017.10.25-11.53.54:869][288]LogLinker: Can't find file '/Game/Tutorial3/MainMenu'
+[2017.10.25-11.53.54:871][288]LogLinker: Can't find file '/Game/Tutorial3/MainMenu'
+[2017.10.25-11.53.55:076][288]LogMetaData: Removing '/Game/Tutorial3/MainMenu.SKEL_MainMenu_C' ref from Metadata '/Game/Tutorial3/NewWidgetBlueprint.PackageMetaData'
+[2017.10.25-11.53.55:076][288]LogMetaData: Removing '/Game/Tutorial3/MainMenu.MainMenu_C' ref from Metadata '/Game/Tutorial3/NewWidgetBlueprint.PackageMetaData'
+[2017.10.25-11.53.55:076][288]LogMetaData: Removing '/Game/Tutorial3/MainMenu.MainMenu:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Tutorial3/NewWidgetBlueprint.PackageMetaData'
+[2017.10.25-11.53.55:076][288]LogMetaData: Removing '/Game/Tutorial3/MainMenu.MainMenu:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Tutorial3/NewWidgetBlueprint.PackageMetaData'
+[2017.10.25-11.53.55:076][288]LogMetaData: Removing '/Game/Tutorial3/MainMenu.MainMenu:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Tutorial3/NewWidgetBlueprint.PackageMetaData'
+[2017.10.25-11.53.55:105][288]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tutorial3/MainMenu" FILE="../../../../../Users/muthy.afifah/Downloads/StarterProject 4.16 - 3/Content/Tutorial3/MainMenu.uasset" SILENT=true
+[2017.10.25-11.53.55:133][288]LogSavePackage: Save=24.46ms
+[2017.10.25-11.53.55:133][288]LogSavePackage: Moving '../../../../../Users/muthy.afifah/Downloads/StarterProject 4.16 - 3/Saved/MainMenuEBC2A94F43841B6860EF3C99A1A86247.tmp' to '../../../../../Users/muthy.afifah/Downloads/StarterProject 4.16 - 3/Content/Tutorial3/MainMenu.uasset'
+[2017.10.25-11.53.55:137][288]LogSavePackage:Display: Finished SavePackage ../../../../../Users/muthy.afifah/Downloads/StarterProject 4.16 - 3/Content/Tutorial3/MainMenu.uasset
+[2017.10.25-11.55.55:120][ 39]LogEditorTransaction: Undo Comment Bubble Visibility
+[2017.10.25-11.55.55:922][ 88]LogEditorTransaction: Undo Add Node
+[2017.10.25-11.56.50:270][851]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.10.25-11.57.06:099][255]LogEditorTransaction: Undo Add Node
+[2017.10.25-11.57.49:363][989]LogEditorTransaction: Undo Add Node
+[2017.10.25-11.58.01:444][731]LogEditorTransaction: Undo Add Node
+[2017.10.25-12.01.39:203][261]BlueprintLog: New page: Compile MainMenu
+[2017.10.25-12.01.39:796][261]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.10.25-12.01.40:560][293]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tutorial3/MainMenu" FILE="../../../../../Users/muthy.afifah/Downloads/StarterProject 4.16 - 3/Content/Tutorial3/MainMenu.uasset" SILENT=true
+[2017.10.25-12.01.40:644][293]LogSavePackage: Save=59.80ms
+[2017.10.25-12.01.40:645][293]LogSavePackage: Moving '../../../../../Users/muthy.afifah/Downloads/StarterProject 4.16 - 3/Saved/MainMenuD323B5FA45976C42A9AB388CBBF970E3.tmp' to '../../../../../Users/muthy.afifah/Downloads/StarterProject 4.16 - 3/Content/Tutorial3/MainMenu.uasset'
+[2017.10.25-12.01.40:652][293]LogSavePackage:Display: Finished SavePackage ../../../../../Users/muthy.afifah/Downloads/StarterProject 4.16 - 3/Content/Tutorial3/MainMenu.uasset
+[2017.10.25-12.01.48:588][690]LogTemp: Repeting last play command: Selected Viewport
+[2017.10.25-12.01.48:656][690]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Temp/Untitled_3.Untitled:PersistentLevel' has LevelScriptBlueprint '/Temp/Untitled_3.Untitled:PersistentLevel.Untitled' with GeneratedClass '/Temp/Untitled_3.Untitled_C' with ClassGeneratedBy '/Temp/Untitled_3.Untitled:PersistentLevel.Untitled'
+[2017.10.25-12.01.48:656][690]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.25-12.01.48:657][690]PIE: New page: PIE session: Untitled_3 (Oct 26, 2017, 2:01:48 AM)
+[2017.10.25-12.01.48:657][690]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_3
+[2017.10.25-12.01.48:659][690]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002293s)
+[2017.10.25-12.01.48:661][690]LogAIModule: Creating AISystem for world Untitled
+[2017.10.25-12.01.48:661][690]LogPlayLevel: PIE: World Init took: (0.001493s)
+[2017.10.25-12.01.48:661][690]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_3.Untitled to /Temp/UEDPIE_0_Untitled_3.Untitled (0.004199s)
+[2017.10.25-12.01.48:758][690]LogInit: XAudio2 using 'ASUS VS197-8 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.25-12.01.48:779][690]LogInit: FAudioDevice initialized.
+[2017.10.25-12.01.48:819][690]LogLoad: Game class is 'GameModeBase'
+[2017.10.25-12.01.48:822][690]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_3.Untitled up for play (max tick rate 0) at 2017.10.25-19.01.48
+[2017.10.25-12.01.48:822][690]LogWorld: Bringing up level for play took: 0.002349
+[2017.10.25-12.01.48:851][690]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_3 0.427
+[2017.10.25-12.01.48:851][690]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Temp/Untitled_3.Untitled:PersistentLevel' has LevelScriptBlueprint '/Temp/Untitled_3.Untitled:PersistentLevel.Untitled' with GeneratedClass '/Temp/Untitled_3.Untitled_C' with ClassGeneratedBy '/Temp/Untitled_3.Untitled:PersistentLevel.Untitled'
+[2017.10.25-12.01.51:551][899]LogNet: Browse: /Game/Tutorial3/NewMap
+[2017.10.25-12.01.51:551][899]LogLoad: LoadMap: /Game/Tutorial3/NewMap
+[2017.10.25-12.01.51:611][899]Cmd: MEM
+[2017.10.25-12.01.51:681][899]LogMemory: Platform Memory Stats for Windows
+[2017.10.25-12.01.51:681][899]LogMemory: Process Physical Memory: 2569.96 MB used, 2576.54 MB peak
+[2017.10.25-12.01.51:681][899]LogMemory: Process Virtual Memory: 3399.07 MB used, 3612.59 MB peak
+[2017.10.25-12.01.51:681][899]LogMemory: Physical Memory: 5073.55 MB used,  7088.16 MB free, 12161.71 MB total
+[2017.10.25-12.01.51:681][899]LogMemory: Virtual Memory: 4542.63 MB used,  7088.16 MB free, 8388608.00 MB total
+[2017.10.25-12.01.51:681][899]LogMemory: 
+[2017.10.25-12.01.51:681][899]Allocator Stats for TBB: (not implemented)
+[2017.10.25-12.01.51:874][899]LogAIModule: Creating AISystem for world NewMap
+[2017.10.25-12.01.51:875][899]LogLoad: Game class is 'GameModeBase'
+[2017.10.25-12.01.51:877][899]LogWorld: Bringing World /Game/Tutorial3/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2017.10.25-19.01.51
+[2017.10.25-12.01.51:878][899]LogWorld: Bringing up level for play took: 0.002432
+[2017.10.25-12.01.51:878][899]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.10.25-12.01.51:880][899]LogLoad: Took 0.328470 seconds to LoadMap(/Game/Tutorial3/NewMap)
+[2017.10.25-12.02.03:319][625]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Temp/Untitled_3.Untitled:PersistentLevel' has LevelScriptBlueprint '/Temp/Untitled_3.Untitled:PersistentLevel.Untitled' with GeneratedClass '/Temp/Untitled_3.Untitled_C' with ClassGeneratedBy '/Temp/Untitled_3.Untitled:PersistentLevel.Untitled'
+[2017.10.25-12.02.03:367][625]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Temp/Untitled_3.Untitled:PersistentLevel' has LevelScriptBlueprint '/Temp/Untitled_3.Untitled:PersistentLevel.Untitled' with GeneratedClass '/Temp/Untitled_3.Untitled_C' with ClassGeneratedBy '/Temp/Untitled_3.Untitled:PersistentLevel.Untitled'
+[2017.10.25-12.02.04:478][686]LogTemp: Repeting last play command: Selected Viewport
+[2017.10.25-12.02.04:520][686]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Temp/Untitled_3.Untitled:PersistentLevel' has LevelScriptBlueprint '/Temp/Untitled_3.Untitled:PersistentLevel.Untitled' with GeneratedClass '/Temp/Untitled_3.Untitled_C' with ClassGeneratedBy '/Temp/Untitled_3.Untitled:PersistentLevel.Untitled'
+[2017.10.25-12.02.04:520][686]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.25-12.02.04:521][686]PIE: New page: PIE session: Untitled_3 (Oct 26, 2017, 2:02:04 AM)
+[2017.10.25-12.02.04:521][686]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_3
+[2017.10.25-12.02.04:524][686]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003512s)
+[2017.10.25-12.02.04:526][686]LogAIModule: Creating AISystem for world Untitled
+[2017.10.25-12.02.04:526][686]LogPlayLevel: PIE: World Init took: (0.001601s)
+[2017.10.25-12.02.04:526][686]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_3.Untitled to /Temp/UEDPIE_0_Untitled_3.Untitled (0.005664s)
+[2017.10.25-12.02.04:618][686]LogInit: XAudio2 using 'ASUS VS197-8 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.25-12.02.04:633][686]LogInit: FAudioDevice initialized.
+[2017.10.25-12.02.04:677][686]LogLoad: Game class is 'GameModeBase'
+[2017.10.25-12.02.04:679][686]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_3.Untitled up for play (max tick rate 0) at 2017.10.25-19.02.04
+[2017.10.25-12.02.04:680][686]LogWorld: Bringing up level for play took: 0.002258
+[2017.10.25-12.02.04:683][686]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_3 0.26
+[2017.10.25-12.02.04:684][686]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Temp/Untitled_3.Untitled:PersistentLevel' has LevelScriptBlueprint '/Temp/Untitled_3.Untitled:PersistentLevel.Untitled' with GeneratedClass '/Temp/Untitled_3.Untitled_C' with ClassGeneratedBy '/Temp/Untitled_3.Untitled:PersistentLevel.Untitled'
+[2017.10.25-12.02.07:341][891]LogNet: Browse: /Game/Tutorial3/NewMap
+[2017.10.25-12.02.07:342][891]LogLoad: LoadMap: /Game/Tutorial3/NewMap
+[2017.10.25-12.02.07:421][891]Cmd: MEM
+[2017.10.25-12.02.07:497][891]LogMemory: Platform Memory Stats for Windows
+[2017.10.25-12.02.07:497][891]LogMemory: Process Physical Memory: 2572.76 MB used, 2584.73 MB peak
+[2017.10.25-12.02.07:497][891]LogMemory: Process Virtual Memory: 3392.97 MB used, 3612.59 MB peak
+[2017.10.25-12.02.07:497][891]LogMemory: Physical Memory: 5076.69 MB used,  7085.02 MB free, 12161.71 MB total
+[2017.10.25-12.02.07:497][891]LogMemory: Virtual Memory: 4536.01 MB used,  7085.02 MB free, 8388608.00 MB total
+[2017.10.25-12.02.07:497][891]LogMemory: 
+[2017.10.25-12.02.07:497][891]Allocator Stats for TBB: (not implemented)
+[2017.10.25-12.02.07:769][891]LogAIModule: Creating AISystem for world NewMap
+[2017.10.25-12.02.07:769][891]LogLoad: Game class is 'GameModeBase'
+[2017.10.25-12.02.07:774][891]LogWorld: Bringing World /Game/Tutorial3/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2017.10.25-19.02.07
+[2017.10.25-12.02.07:775][891]LogWorld: Bringing up level for play took: 0.004204
+[2017.10.25-12.02.07:776][891]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.10.25-12.02.07:778][891]LogLoad: Took 0.435943 seconds to LoadMap(/Game/Tutorial3/NewMap)
+[2017.10.25-12.02.11:274][112]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Temp/Untitled_3.Untitled:PersistentLevel' has LevelScriptBlueprint '/Temp/Untitled_3.Untitled:PersistentLevel.Untitled' with GeneratedClass '/Temp/Untitled_3.Untitled_C' with ClassGeneratedBy '/Temp/Untitled_3.Untitled:PersistentLevel.Untitled'
+[2017.10.25-12.02.11:320][112]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Temp/Untitled_3.Untitled:PersistentLevel' has LevelScriptBlueprint '/Temp/Untitled_3.Untitled:PersistentLevel.Untitled' with GeneratedClass '/Temp/Untitled_3.Untitled_C' with ClassGeneratedBy '/Temp/Untitled_3.Untitled:PersistentLevel.Untitled'
+[2017.10.25-12.02.28:086][ 64]LogAIModule: Creating AISystem for world NewMap
+[2017.10.25-12.02.45:023][691]LogSavePackage: Save=365.33ms
+[2017.10.25-12.02.45:023][691]LogSavePackage: Moving '../../../../../Users/muthy.afifah/Downloads/StarterProject 4.16 - 3/Saved/NewMap1C265C2EB4FDC63D4DB44888D069830AA.tmp' to '../../../../../Users/muthy.afifah/Downloads/StarterProject 4.16 - 3/Content/Tutorial3/NewMap1.umap'
+[2017.10.25-12.02.45:030][691]LogSavePackage:Display: Finished SavePackage ../../../../../Users/muthy.afifah/Downloads/StarterProject 4.16 - 3/Content/Tutorial3/NewMap1.umap
+[2017.10.25-12.02.45:114][691]LogFileHelpers: Saving map 'NewMap1' took 1.250
+[2017.10.25-12.02.49:451][959]Cmd: MAP LOAD FILE="../../../../../Users/muthy.afifah/Downloads/StarterProject 4.16 - 3/Content/Tutorial3/NewMap1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.10.25-12.02.49:451][959]LightingResults: New page: Lighting Build
+[2017.10.25-12.02.49:453][959]LoadErrors: New page: Loading map: NewMap1.umap
+[2017.10.25-12.02.49:454][959]MapCheck: New page: Map Check
+[2017.10.25-12.02.49:454][959]LightingResults: New page: Lighting Build
+[2017.10.25-12.02.49:803][959]LogAIModule: Creating AISystem for world NewMap1
+[2017.10.25-12.02.49:808][959]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.10.25-12.02.49:975][959]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.10.25-12.02.50:161][959]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 185.6ms to complete.
+[2017.10.25-12.02.50:174][959]LogFileHelpers: Loading map 'NewMap1' took 0.725
+[2017.10.25-12.02.54:229][204]Cmd: QUIT_EDITOR
+[2017.10.25-12.02.54:336][204]LogExit: Preparing to exit.
+[2017.10.25-12.02.54:698][204]LogDirectoryWatcher: A directory notification for 'C:/Users/muthy.afifah/Downloads/StarterProject 4.16 - 3/Content/' was aborted.
+[2017.10.25-12.02.54:816][204]LogExit: Editor shut down
+[2017.10.25-12.02.54:833][204]LogExit: Transaction tracking system shut down
+[2017.10.25-12.02.55:183][204]LogObj: Freed 0b from 0 cluster array pools.
+[2017.10.25-12.02.55:184][204]LogExit: Object subsystem successfully closed.
+[2017.10.25-12.02.55:213][204]LogD3D11RHI: Shutdown
+[2017.10.25-12.02.55:213][204]LogD3D11RHI: CleanupD3DDevice
+[2017.10.25-12.02.55:472][204]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.10.25-12.02.55:598][204]LogModuleManager: Shutting down and abandoning module SequencerWidgets (536)
+[2017.10.25-12.02.55:598][204]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (534)
+[2017.10.25-12.02.55:598][204]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (532)
+[2017.10.25-12.02.55:598][204]LogModuleManager: Shutting down and abandoning module BlueprintGraph (530)
+[2017.10.25-12.02.55:598][204]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (528)
+[2017.10.25-12.02.55:606][204]LogModuleManager: Shutting down and abandoning module NewLevelDialog (526)
+[2017.10.25-12.02.55:606][204]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (524)
+[2017.10.25-12.02.55:606][204]LogModuleManager: Shutting down and abandoning module CrashTracker (522)
+[2017.10.25-12.02.55:606][204]LogModuleManager: Shutting down and abandoning module SceneOutliner (520)
+[2017.10.25-12.02.55:606][204]LogModuleManager: Shutting down and abandoning module AddContentDialog (518)
+[2017.10.25-12.02.55:606][204]LogDirectoryWatcher: A directory notification for 'C:/Unreal Engine 4/UE_4.16/FeaturePacks/' was aborted.
+[2017.10.25-12.02.55:610][204]LogModuleManager: Shutting down and abandoning module WidgetCarousel (517)
+[2017.10.25-12.02.55:610][204]LogModuleManager: Shutting down and abandoning module EditorWidgets (514)
+[2017.10.25-12.02.55:610][204]LogModuleManager: Shutting down and abandoning module CollectionManager (512)
+[2017.10.25-12.02.55:610][204]LogDirectoryWatcher: A directory notification for 'C:/Users/muthy.afifah/Downloads/StarterProject 4.16 - 3/Content/Collections/' was aborted.
+[2017.10.25-12.02.55:610][204]LogDirectoryWatcher: A directory notification for 'C:/Users/muthy.afifah/Downloads/StarterProject 4.16 - 3/Content/Developers/muthyafifah/Collections/' was aborted.
+[2017.10.25-12.02.55:610][204]LogDirectoryWatcher: A directory notification for 'C:/Users/muthy.afifah/Downloads/StarterProject 4.16 - 3/Saved/Collections/' was aborted.
+[2017.10.25-12.02.55:611][204]LogModuleManager: Shutting down and abandoning module StatsViewer (510)
+[2017.10.25-12.02.55:611][204]LogModuleManager: Shutting down and abandoning module FoliageEdit (508)
+[2017.10.25-12.02.55:611][204]LogModuleManager: Shutting down and abandoning module LandscapeEditor (506)
+[2017.10.25-12.02.55:611][204]LogModuleManager: Shutting down and abandoning module MeshPaintMode (504)
+[2017.10.25-12.02.55:611][204]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (502)
+[2017.10.25-12.02.55:611][204]LogModuleManager: Shutting down and abandoning module ActorPickerMode (500)
+[2017.10.25-12.02.55:611][204]LogModuleManager: Shutting down and abandoning module GeometryMode (498)
+[2017.10.25-12.02.55:611][204]LogModuleManager: Shutting down and abandoning module TextureAlignMode (496)
+[2017.10.25-12.02.55:611][204]LogModuleManager: Shutting down and abandoning module BspMode (494)
+[2017.10.25-12.02.55:611][204]LogModuleManager: Shutting down and abandoning module HardwareSurvey (492)
+[2017.10.25-12.02.55:611][204]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (490)
+[2017.10.25-12.02.55:611][204]LogModuleManager: Shutting down and abandoning module AutomationWorker (488)
+[2017.10.25-12.02.55:611][204]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (486)
+[2017.10.25-12.02.55:611][204]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (484)
+[2017.10.25-12.02.55:611][204]LogModuleManager: Shutting down and abandoning module PlacementMode (483)
+[2017.10.25-12.02.55:612][204]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (480)
+[2017.10.25-12.02.55:612][204]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (478)
+[2017.10.25-12.02.55:612][204]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (476)
+[2017.10.25-12.02.55:612][204]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (474)
+[2017.10.25-12.02.55:612][204]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (472)
+[2017.10.25-12.02.55:612][204]LogModuleManager: Shutting down and abandoning module Media (471)
+[2017.10.25-12.02.55:612][204]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (468)
+[2017.10.25-12.02.55:612][204]LogModuleManager: Shutting down and abandoning module CharacterAI (466)
+[2017.10.25-12.02.55:612][204]LogModuleManager: Shutting down and abandoning module AudioCapture (464)
+[2017.10.25-12.02.55:612][204]LogModuleManager: Shutting down and abandoning module SequenceRecorder (463)
+[2017.10.25-12.02.55:613][204]LogModuleManager: Shutting down and abandoning module SmartSnapping (460)
+[2017.10.25-12.02.55:613][204]LogModuleManager: Shutting down and abandoning module SessionServices (458)
+[2017.10.25-12.02.55:613][204]LogModuleManager: Shutting down and abandoning module ViewportSnapping (456)
+[2017.10.25-12.02.55:613][204]LogModuleManager: Shutting down and abandoning module ViewportInteraction (454)
+[2017.10.25-12.02.55:613][204]LogModuleManager: Shutting down and abandoning module ClothPainter (452)
+[2017.10.25-12.02.55:613][204]LogModuleManager: Shutting down and abandoning module LogVisualizer (450)
+[2017.10.25-12.02.55:613][204]LogModuleManager: Shutting down and abandoning module IntroTutorials (448)
+[2017.10.25-12.02.55:613][204]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (447)
+[2017.10.25-12.02.55:613][204]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (444)
+[2017.10.25-12.02.55:613][204]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (442)
+[2017.10.25-12.02.55:613][204]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (440)
+[2017.10.25-12.02.55:613][204]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (438)
+[2017.10.25-12.02.55:613][204]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (437)
+[2017.10.25-12.02.56:570][204]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (434)
+[2017.10.25-12.02.56:570][204]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (432)
+[2017.10.25-12.02.56:570][204]LogModuleManager: Shutting down and abandoning module InputBindingEditor (430)
+[2017.10.25-12.02.56:570][204]LogModuleManager: Shutting down and abandoning module MergeActors (428)
+[2017.10.25-12.02.56:570][204]LogModuleManager: Shutting down and abandoning module SizeMap (426)
+[2017.10.25-12.02.56:570][204]LogModuleManager: Shutting down and abandoning module TreeMap (424)
+[2017.10.25-12.02.56:570][204]LogModuleManager: Shutting down and abandoning module ReferenceViewer (422)
+[2017.10.25-12.02.56:570][204]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (420)
+[2017.10.25-12.02.56:570][204]LogModuleManager: Shutting down and abandoning module LocalizationService (419)
+[2017.10.25-12.02.56:570][204]LogModuleManager: Shutting down and abandoning module HardwareTargeting (416)
+[2017.10.25-12.02.56:570][204]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (414)
+[2017.10.25-12.02.56:570][204]LogModuleManager: Shutting down and abandoning module UndoHistory (412)
+[2017.10.25-12.02.56:570][204]LogModuleManager: Shutting down and abandoning module UserFeedback (410)
+[2017.10.25-12.02.56:570][204]LogModuleManager: Shutting down and abandoning module XmlParser (408)
+[2017.10.25-12.02.56:570][204]LogModuleManager: Shutting down and abandoning module Blutility (406)
+[2017.10.25-12.02.56:570][204]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (404)
+[2017.10.25-12.02.56:571][204]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (403)
+[2017.10.25-12.02.56:571][204]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (400)
+[2017.10.25-12.02.56:571][204]LogModuleManager: Shutting down and abandoning module SettingsEditor (398)
+[2017.10.25-12.02.56:571][204]LogModuleManager: Shutting down and abandoning module ProjectLauncher (396)
+[2017.10.25-12.02.56:571][204]LogModuleManager: Shutting down and abandoning module SessionFrontend (394)
+[2017.10.25-12.02.56:571][204]LogModuleManager: Shutting down and abandoning module ProfilerClient (392)
+[2017.10.25-12.02.56:571][204]LogModuleManager: Shutting down and abandoning module DeviceManager (390)
+[2017.10.25-12.02.56:572][204]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (389)
+[2017.10.25-12.02.56:622][204]LogModuleManager: Shutting down and abandoning module AutomationController (386)
+[2017.10.25-12.02.56:622][204]LogModuleManager: Shutting down and abandoning module AutomationWindow (384)
+[2017.10.25-12.02.56:622][204]LogModuleManager: Shutting down and abandoning module Layers (382)
+[2017.10.25-12.02.56:622][204]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (380)
+[2017.10.25-12.02.56:622][204]LogModuleManager: Shutting down and abandoning module DetailCustomizations (378)
+[2017.10.25-12.02.56:622][204]LogModuleManager: Shutting down and abandoning module PackagesDialog (376)
+[2017.10.25-12.02.56:622][204]LogModuleManager: Shutting down and abandoning module Persona (374)
+[2017.10.25-12.02.56:623][204]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (373)
+[2017.10.25-12.02.56:623][204]LogModuleManager: Shutting down and abandoning module AnimGraph (371)
+[2017.10.25-12.02.56:623][204]LogModuleManager: Shutting down and abandoning module Kismet (368)
+[2017.10.25-12.02.56:646][204]LogModuleManager: Shutting down and abandoning module ClassViewer (366)
+[2017.10.25-12.02.56:650][204]LogModuleManager: Shutting down and abandoning module Toolbox (364)
+[2017.10.25-12.02.56:651][204]LogModuleManager: Shutting down and abandoning module ModuleUI (362)
+[2017.10.25-12.02.56:651][204]LogModuleManager: Shutting down and abandoning module MovieSceneTools (360)
+[2017.10.25-12.02.56:651][204]LogModuleManager: Shutting down and abandoning module OutputLog (358)
+[2017.10.25-12.02.56:651][204]LogModuleManager: Shutting down and abandoning module GammaUI (356)
+[2017.10.25-12.02.56:651][204]LogModuleManager: Shutting down and abandoning module Documentation (354)
+[2017.10.25-12.02.56:651][204]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (352)
+[2017.10.25-12.02.56:651][204]LogModuleManager: Shutting down and abandoning module MovieScene (350)
+[2017.10.25-12.02.56:651][204]LogModuleManager: Shutting down and abandoning module Niagara (348)
+[2017.10.25-12.02.56:651][204]LogModuleManager: Shutting down and abandoning module NiagaraEditor (347)
+[2017.10.25-12.02.56:651][204]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (344)
+[2017.10.25-12.02.56:651][204]LogModuleManager: Shutting down and abandoning module AnalyticsET (342)
+[2017.10.25-12.02.56:652][204]LogModuleManager: Shutting down and abandoning module PortalServices (340)
+[2017.10.25-12.02.56:652][204]LogModuleManager: Shutting down and abandoning module PortalRpc (338)
+[2017.10.25-12.02.56:652][204]LogModuleManager: Shutting down and abandoning module MessagingRpc (336)
+[2017.10.25-12.02.56:652][204]LogModuleManager: Shutting down and abandoning module AIModule (334)
+[2017.10.25-12.02.56:652][204]LogModuleManager: Shutting down and abandoning module GameplayDebugger (333)
+[2017.10.25-12.02.56:652][204]LogModuleManager: Shutting down and abandoning module AITestSuite (331)
+[2017.10.25-12.02.56:652][204]LogModuleManager: Shutting down and abandoning module ProfilerService (328)
+[2017.10.25-12.02.56:903][204]LogModuleManager: Shutting down and abandoning module TaskGraph (326)
+[2017.10.25-12.02.56:903][204]LogModuleManager: Shutting down and abandoning module SteamVRController (324)
+[2017.10.25-12.02.56:903][204]LogModuleManager: Shutting down and abandoning module SteamVR (322)
+[2017.10.25-12.02.56:903][204]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (320)
+[2017.10.25-12.02.56:903][204]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (318)
+[2017.10.25-12.02.56:903][204]LogModuleManager: Shutting down and abandoning module OculusLibrary (316)
+[2017.10.25-12.02.56:903][204]LogModuleManager: Shutting down and abandoning module OculusInput (314)
+[2017.10.25-12.02.56:903][204]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (312)
+[2017.10.25-12.02.56:903][204]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (310)
+[2017.10.25-12.02.56:903][204]LogModuleManager: Shutting down and abandoning module CableComponent (308)
+[2017.10.25-12.02.56:903][204]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (306)
+[2017.10.25-12.02.56:903][204]LogModuleManager: Shutting down and abandoning module AndroidPermission (304)
+[2017.10.25-12.02.56:903][204]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (300)
+[2017.10.25-12.02.56:904][204]LogModuleManager: Shutting down and abandoning module HTML5Networking (298)
+[2017.10.25-12.02.56:904][204]LogModuleManager: Shutting down and abandoning module AlembicImporter (296)
+[2017.10.25-12.02.56:904][204]LogModuleManager: Shutting down and abandoning module AlembicLibrary (295)
+[2017.10.25-12.02.56:904][204]LogModuleManager: Shutting down and abandoning module GeometryCache (294)
+[2017.10.25-12.02.56:904][204]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (293)
+[2017.10.25-12.02.56:904][204]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (288)
+[2017.10.25-12.02.56:904][204]LogModuleManager: Shutting down and abandoning module SuperSearch (287)
+[2017.10.25-12.02.56:904][204]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (284)
+[2017.10.25-12.02.56:904][204]LogModuleManager: Shutting down and abandoning module PluginBrowser (282)
+[2017.10.25-12.02.56:904][204]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (280)
+[2017.10.25-12.02.56:904][204]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (278)
+[2017.10.25-12.02.56:904][204]LogModuleManager: Shutting down and abandoning module DesktopPlatform (277)
+[2017.10.25-12.02.56:904][204]LogModuleManager: Shutting down and abandoning module UObjectPlugin (274)
+[2017.10.25-12.02.56:904][204]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (272)
+[2017.10.25-12.02.56:904][204]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (270)
+[2017.10.25-12.02.56:904][204]LogModuleManager: Shutting down and abandoning module GitSourceControl (268)
+[2017.10.25-12.02.56:904][204]LogModuleManager: Shutting down and abandoning module SourceControl (267)
+[2017.10.25-12.02.56:905][204]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (264)
+[2017.10.25-12.02.56:905][204]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (262)
+[2017.10.25-12.02.56:905][204]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (260)
+[2017.10.25-12.02.56:905][204]LogModuleManager: Shutting down and abandoning module Paper2DEditor (258)
+[2017.10.25-12.02.56:905][204]LogModuleManager: Shutting down and abandoning module MeshPaint (257)
+[2017.10.25-12.02.56:905][204]LogModuleManager: Shutting down and abandoning module LevelEditor (255)
+[2017.10.25-12.02.56:906][204]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (254)
+[2017.10.25-12.02.56:906][204]LogModuleManager: Shutting down and abandoning module MainFrame (252)
+[2017.10.25-12.02.56:906][204]LogModuleManager: Shutting down and abandoning module HotReload (251)
+[2017.10.25-12.02.56:908][204]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (246)
+[2017.10.25-12.02.56:908][204]LogModuleManager: Shutting down and abandoning module PhysXVehicles (244)
+[2017.10.25-12.02.56:908][204]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (242)
+[2017.10.25-12.02.56:908][204]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (240)
+[2017.10.25-12.02.56:908][204]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (238)
+[2017.10.25-12.02.56:908][204]LogModuleManager: Shutting down and abandoning module UdpMessaging (236)
+[2017.10.25-12.02.57:008][204]LogModuleManager: Shutting down and abandoning module TcpMessaging (234)
+[2017.10.25-12.02.57:108][204]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (232)
+[2017.10.25-12.02.57:108][204]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (230)
+[2017.10.25-12.02.57:108][204]LogModuleManager: Shutting down and abandoning module FacialAnimation (228)
+[2017.10.25-12.02.57:108][204]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (226)
+[2017.10.25-12.02.57:108][204]LogModuleManager: Shutting down and abandoning module GraphEditor (225)
+[2017.10.25-12.02.57:108][204]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
+[2017.10.25-12.02.57:112][204]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (220)
+[2017.10.25-12.02.57:112][204]LogModuleManager: Shutting down and abandoning module Paper2D (218)
+[2017.10.25-12.02.57:112][204]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (216)
+[2017.10.25-12.02.57:113][204]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
+[2017.10.25-12.02.57:114][204]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (212)
+[2017.10.25-12.02.57:114][204]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (210)
+[2017.10.25-12.02.57:115][204]LogModuleManager: Shutting down and abandoning module MediaAssets (208)
+[2017.10.25-12.02.57:115][204]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (206)
+[2017.10.25-12.02.57:115][204]LogModuleManager: Shutting down and abandoning module VREditor (204)
+[2017.10.25-12.02.57:115][204]LogModuleManager: Shutting down and abandoning module StringTableEditor (202)
+[2017.10.25-12.02.57:115][204]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (200)
+[2017.10.25-12.02.57:115][204]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (198)
+[2017.10.25-12.02.57:115][204]LogModuleManager: Shutting down and abandoning module FunctionalTesting (196)
+[2017.10.25-12.02.57:115][204]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (194)
+[2017.10.25-12.02.57:116][204]LogModuleManager: Shutting down and abandoning module UMG (192)
+[2017.10.25-12.02.57:116][204]LogModuleManager: Shutting down and abandoning module UMGEditor (191)
+[2017.10.25-12.02.57:116][204]LogModuleManager: Shutting down and abandoning module Sequencer (190)
+[2017.10.25-12.02.57:116][204]LogModuleManager: Shutting down and abandoning module AssetTools (188)
+[2017.10.25-12.02.57:116][204]LogModuleManager: Shutting down and abandoning module MessageLog (187)
+[2017.10.25-12.02.57:116][204]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (186)
+[2017.10.25-12.02.57:116][204]LogModuleManager: Shutting down and abandoning module SlateReflector (180)
+[2017.10.25-12.02.57:116][204]LogModuleManager: Shutting down and abandoning module Slate (178)
+[2017.10.25-12.02.57:116][204]LogModuleManager: Shutting down and abandoning module EditorStyle (176)
+[2017.10.25-12.02.57:124][204]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (174)
+[2017.10.25-12.02.57:124][204]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (172)
+[2017.10.25-12.02.57:124][204]LogModuleManager: Shutting down and abandoning module XAudio2 (170)
+[2017.10.25-12.02.57:124][204]LogModuleManager: Shutting down and abandoning module Networking (168)
+[2017.10.25-12.02.57:124][204]LogModuleManager: Shutting down and abandoning module Core (164)
+[2017.10.25-12.02.57:124][204]LogModuleManager: Shutting down and abandoning module AssetRegistry (162)
+[2017.10.25-12.02.57:330][204]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.10.25-12.02.57:330][204]LogDirectoryWatcher: A directory notification for '../../../../../Users/muthy.afifah/Downloads/StarterProject 4.16 - 3/Content/' was aborted.
+[2017.10.25-12.02.57:330][204]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.10.25-12.02.57:330][204]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/GearVR/Content/' was aborted.
+[2017.10.25-12.02.57:338][204]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (161)
+[2017.10.25-12.02.57:341][204]LogModuleManager: Shutting down and abandoning module KismetCompiler (158)
+[2017.10.25-12.02.57:341][204]LogModuleManager: Shutting down and abandoning module PhysXFormats (156)
+[2017.10.25-12.02.57:341][204]LogModuleManager: Shutting down and abandoning module MeshUtilities (154)
+[2017.10.25-12.02.57:341][204]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (153)
+[2017.10.25-12.02.57:341][204]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (151)
+[2017.10.25-12.02.57:341][204]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (149)
+[2017.10.25-12.02.57:341][204]LogModuleManager: Shutting down and abandoning module LevelSequence (146)
+[2017.10.25-12.02.57:341][204]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2017.10.25-12.02.57:417][204]LogDerivedDataCache: Shutdown
+[2017.10.25-12.02.57:417][204]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2017.10.25-12.02.57:417][204]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2017.10.25-12.02.57:417][204]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2017.10.25-12.02.57:417][204]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2017.10.25-12.02.57:417][204]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2017.10.25-12.02.57:417][204]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2017.10.25-12.02.57:417][204]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2017.10.25-12.02.57:417][204]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2017.10.25-12.02.57:417][204]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2017.10.25-12.02.57:417][204]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2017.10.25-12.02.57:418][204]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2017.10.25-12.02.57:418][204]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2017.10.25-12.02.57:418][204]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2017.10.25-12.02.57:418][204]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2017.10.25-12.02.57:418][204]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2017.10.25-12.02.57:418][204]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2017.10.25-12.02.57:418][204]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2017.10.25-12.02.57:418][204]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2017.10.25-12.02.57:418][204]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2017.10.25-12.02.57:418][204]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2017.10.25-12.02.57:418][204]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2017.10.25-12.02.57:418][204]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2017.10.25-12.02.57:418][204]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2017.10.25-12.02.57:418][204]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2017.10.25-12.02.57:418][204]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2017.10.25-12.02.57:418][204]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2017.10.25-12.02.57:418][204]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2017.10.25-12.02.57:418][204]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2017.10.25-12.02.57:418][204]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2017.10.25-12.02.57:418][204]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2017.10.25-12.02.57:418][204]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2017.10.25-12.02.57:418][204]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2017.10.25-12.02.57:418][204]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2017.10.25-12.02.57:418][204]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2017.10.25-12.02.57:418][204]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2017.10.25-12.02.57:418][204]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2017.10.25-12.02.57:418][204]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2017.10.25-12.02.57:418][204]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2017.10.25-12.02.57:418][204]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2017.10.25-12.02.57:418][204]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2017.10.25-12.02.57:418][204]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2017.10.25-12.02.57:419][204]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2017.10.25-12.02.57:419][204]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2017.10.25-12.02.57:419][204]LogModuleManager: Shutting down and abandoning module OculusRift (56)
+[2017.10.25-12.02.57:419][204]LogModuleManager: Shutting down and abandoning module GearVRController (54)
+[2017.10.25-12.02.57:419][204]LogModuleManager: Shutting down and abandoning module GearVR (52)
+[2017.10.25-12.02.57:419][204]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2017.10.25-12.02.57:419][204]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.10.25-12.02.57:419][204]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.10.25-12.02.57:419][204]LogOnline:Display: Unloading online subsystem: NULL
+[2017.10.25-12.02.57:419][204]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.10.25-12.02.57:419][204]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.10.25-12.02.57:419][204]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.10.25-12.02.57:419][204]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B6EDD7DF3-4A40-C32B-ADBE-B3A8F8947DFA%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.1-3466753%2B%2B%2BUE4%2BRelease-4.16&UserID=131fa3c0470fdde80f7d9692d942ae58%7C%7C77e2cc7e-d219-4e5f-af45-53d59c081475&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.10.25-12.02.57:454][204]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.10.25-12.02.57:458][204]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
+[2017.10.25-12.02.57:458][204]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2017.10.25-12.02.57:458][204]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
+[2017.10.25-12.02.57:459][204]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.10.25-12.02.57:459][204]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.10.25-12.02.57:459][204]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.10.25-12.02.57:459][204]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.10.25-12.02.57:459][204]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.10.25-12.02.57:466][204]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.10.25-12.02.57:466][204]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.10.25-12.02.57:466][204]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.10.25-12.02.57:466][204]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.10.25-12.02.57:466][204]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.10.25-12.02.57:466][204]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.10.25-12.02.57:466][204]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.10.25-12.02.57:466][204]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.10.25-12.02.57:466][204]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.10.25-12.02.57:466][204]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.10.25-12.02.57:472][204]LogExit: Exiting.
+[2017.10.25-12.02.57:520][204]Log file closed, 10/25/17 19:02:57
